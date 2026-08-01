@@ -243,8 +243,8 @@ html, body, [class*="css"] {
 
 /* Resume Text Preview Box */
 .resume-preview-box {
-    background-color: #0F172A;
-    color: #F8FAFC;
+    background-color: #F8FAFC;
+    color: #0F172A;
     border-radius: 8px;
     padding: 16px;
     max-height: 440px;
@@ -253,11 +253,12 @@ html, body, [class*="css"] {
     font-size: 13px;
     white-space: pre-wrap;
     line-height: 1.6;
-    border: 1px solid #334155;
+    border: 1px solid #E2E8F0;
 }
 
 .dark-mode .resume-preview-box {
     background-color: #020617 !important;
+    color: #F8FAFC !important;
     border-color: #1E293B !important;
 }
 
@@ -341,28 +342,6 @@ html, body, [class*="css"] {
 .dark-mode div[data-testid="stAlert"] p,
 .dark-mode div[data-testid="stAlert"] span {
     color: #F8FAFC !important;
-}
-
-/* Tabs */
-.dark-mode button[data-baseweb="tab"] {
-    color: #94A3B8 !important;
-}
-
-.dark-mode button[data-baseweb="tab"][aria-selected="true"] {
-    color: #60A5FA !important;
-    border-bottom-color: #60A5FA !important;
-}
-
-/* File Uploader Dropzone */
-.dark-mode div[data-testid="stFileUploader"] section {
-    background-color: #1E293B !important;
-    border-color: #475569 !important;
-    color: #F8FAFC !important;
-}
-
-.dark-mode div[data-testid="stFileUploader"] small,
-.dark-mode div[data-testid="stFileUploader"] span {
-    color: #CBD5E1 !important;
 }
 
 /* Mobile Responsive Media Queries (< 768px) */
