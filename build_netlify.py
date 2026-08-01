@@ -77,7 +77,7 @@ html_content = f"""<!DOCTYPE html>
     <script>
       stlite.mount(
         {{
-          requirements: ["rapidfuzz", "numpy", "pdfplumber", "pypdf", "python-docx"],
+          requirements: ["numpy", "pypdf", "python-docx"],
           entrypoint: "web/streamlit_app.py",
           files: {json.dumps(files, indent=2)}
         }},

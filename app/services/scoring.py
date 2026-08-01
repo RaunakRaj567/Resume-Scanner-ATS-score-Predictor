@@ -1,6 +1,21 @@
 import numpy as np
-from rapidfuzz import fuzz
+import difflib
 from typing import Dict, List, Any
+
+class PurePythonFuzz:
+    @staticmethod
+    def ratio(s1: str, s2: str) -> float:
+        if not s1 and not s2:
+            return 100.0
+        if not s1 or not s2:
+            return 0.0
+        return difflib.SequenceMatcher(None, s1, s2).ratio() * 100.0
+
+try:
+    from rapidfuzz import fuzz
+except ImportError:
+    fuzz = PurePythonFuzz()
+
 from app.services.ontology import ontology_loader
 from app.utils.logging import get_logger
 

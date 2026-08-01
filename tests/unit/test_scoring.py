@@ -1,4 +1,9 @@
-from app.services.scoring import scoring_engine
+from app.services.scoring import scoring_engine, PurePythonFuzz
+
+def test_pure_python_fuzz_fallback():
+    assert PurePythonFuzz.ratio("python", "pythn") > 88
+    assert PurePythonFuzz.ratio("", "") == 100.0
+    assert PurePythonFuzz.ratio("python", "") == 0.0
 
 def test_scoring_math():
     extracted_text = """

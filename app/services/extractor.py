@@ -49,8 +49,8 @@ class ResumeExtractor:
             with pdfplumber.open(file_path) as pdf:
                 pages_text = [page.extract_text() or "" for page in pdf.pages]
                 text = "\n".join(pages_text)
-        except Exception as e:
-            logger.warning(f"pdfplumber extraction failed for {file_path}: {e}, falling back to pypdf")
+        except (ImportError, Exception) as e:
+            logger.warning(f"pdfplumber extraction failed or not available for {file_path}: {e}, falling back to pypdf")
             try:
                 from pypdf import PdfReader
                 reader = PdfReader(file_path)
