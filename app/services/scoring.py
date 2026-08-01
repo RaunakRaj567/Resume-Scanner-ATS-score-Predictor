@@ -1,10 +1,18 @@
 import numpy as np
-from rapidfuzz import fuzz
 from typing import Dict, List, Any
 from app.services.ontology import ontology_loader
 from app.utils.logging import get_logger
 
 logger = get_logger(__name__)
+
+try:
+    from rapidfuzz import fuzz
+    def fuzzy_ratio(s1: str, s2: str) -> float:
+        return float(fuzz.ratio(s1, s2))
+except ImportError:
+    from difflib import SequenceMatcher
+    def fuzzy_ratio(s1: str, s2: str) -> float:
+        return float(SequenceMatcher(None, s1.lower(), s2.lower()).ratio() * 100.0)
 
 KEYWORD_SCORE_TABLE = {
     0: 0.0,
@@ -180,7 +188,7 @@ class ScoringEngine:
             # Check fuzzy match if exact match not found
             if not match_type:
                 for token in tokens:
-                    if fuzz.ratio(kw_lower, token.lower()) >= 88:
+                    if fuzzy_ratio(kw_lower, token.lower()) >= 88:
                         match_type = "fuzzy"
                         break
 
