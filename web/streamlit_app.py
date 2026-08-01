@@ -60,17 +60,39 @@ with col_theme:
     is_dark = st.toggle("Dark Mode", value=st.session_state["dark_mode"])
     st.session_state["dark_mode"] = is_dark
 
-# Inject dark mode class wrapper if enabled
+# Inject explicit Light/Dark theme CSS styles
 if st.session_state["dark_mode"]:
     st.markdown("""
     <style>
-        .stApp { background-color: #0B0F17 !important; color: #F1F5F9 !important; }
+        .stApp, div[data-testid="stAppViewContainer"], div[data-testid="stHeader"] { background-color: #0B0F17 !important; color: #F1F5F9 !important; }
         .main-header { background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%) !important; box-shadow: 0 8px 24px rgba(67, 56, 202, 0.35) !important; border: 1px solid #4338CA !important; }
         .donut-score-box, .subscore-card, .suggestion-card { background-color: #1E293B !important; border-color: #334155 !important; color: #F8FAFC !important; }
         .subscore-header, .suggestion-rewrite { color: #F8FAFC !important; }
         .subscore-bar-bg { background-color: #334155 !important; }
-        .resume-preview-box { background-color: #020617 !important; border-color: #1E293B !important; }
-        div[data-testid="stVerticalBlock"] > div[style*="border"] { background-color: #1E293B !important; border-color: #334155 !important; }
+        .resume-preview-box { background-color: #020617 !important; border-color: #1E293B !important; color: #F8FAFC !important; }
+        div[data-testid="stVerticalBlock"] > div[style*="border"] { background-color: #1E293B !important; border-color: #334155 !important; color: #F8FAFC !important; }
+        .donut-label { color: #CBD5E1 !important; }
+        .stMarkdown, p, h1, h2, h3, h4, h5, h6, label, span, div[data-testid="stMarkdownContainer"] { color: #F1F5F9 !important; }
+        div[data-baseweb="select"] > div, input, textarea { background-color: #1E293B !important; color: #F8FAFC !important; border-color: #475569 !important; }
+        div[data-testid="stFileUploader"] section { background-color: #1E293B !important; border-color: #475569 !important; color: #F8FAFC !important; }
+        div[data-testid="stFileUploader"] section * { color: #CBD5E1 !important; }
+    </style>
+    """, unsafe_allow_html=True)
+else:
+    st.markdown("""
+    <style>
+        .stApp, div[data-testid="stAppViewContainer"], div[data-testid="stHeader"] { background-color: #F8FAFC !important; color: #0F172A !important; }
+        .main-header { background: linear-gradient(135deg, #1E6FF3 0%, #0F4CB8 100%) !important; box-shadow: 0 4px 16px rgba(30, 111, 243, 0.2) !important; border: none !important; }
+        .donut-score-box, .subscore-card, .suggestion-card { background-color: #FFFFFF !important; border-color: #E2E8F0 !important; color: #0F172A !important; }
+        .subscore-header, .suggestion-rewrite { color: #0F172A !important; }
+        .subscore-bar-bg { background-color: #E2E8F0 !important; }
+        .resume-preview-box { background-color: #FFFFFF !important; border-color: #CBD5E1 !important; color: #0F172A !important; }
+        div[data-testid="stVerticalBlock"] > div[style*="border"] { background-color: #FFFFFF !important; border-color: #E2E8F0 !important; color: #0F172A !important; }
+        .donut-label { color: #475569 !important; }
+        .stMarkdown, p, h1, h2, h3, h4, h5, h6, label, span, div[data-testid="stMarkdownContainer"] { color: #0F172A !important; }
+        div[data-baseweb="select"] > div, input, textarea { background-color: #FFFFFF !important; color: #0F172A !important; border-color: #CBD5E1 !important; }
+        div[data-testid="stFileUploader"] section { background-color: #FFFFFF !important; border-color: #CBD5E1 !important; color: #0F172A !important; }
+        div[data-testid="stFileUploader"] section * { color: #334155 !important; }
     </style>
     """, unsafe_allow_html=True)
 
