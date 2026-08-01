@@ -1,0 +1,24 @@
+Alex Johnson
+Email: alex.johnson@example.com | Phone: +1-555-019-2834 | Location: San Francisco, CA
+
+SUMMARY
+Senior AI/ML Engineer with 4 years of experience building and deploying machine learning and deep learning models at scale. Proficient in PyTorch, TensorFlow, Computer Vision, and Natural Language Processing.
+
+EXPERIENCE
+Senior ML Engineer | TechCorp Inc | Jan 2022 - Present
+- Engineered deep learning recommendation system using PyTorch and Transformers, increasing user engagement by 18%.
+- Fine-tuned BERT and LLM models for text classification and sentiment analysis with spaCy and HuggingFace.
+- Built automated MLOps model deployment pipeline on Docker and Kubernetes, reducing latency to under 50ms.
+
+Machine Learning Developer | DataScale Labs | Jun 2020 - Dec 2021
+- Trained computer vision object detection models using OpenCV and Scikit-Learn for automated quality inspection.
+- Developed distributed data processing pipelines using Python, NumPy, Pandas, and SQL.
+
+EDUCATION
+Master of Science in Computer Science | Stanford University | 2020
+Bachelor of Science in Software Engineering | UC Berkeley | 2018
+
+SKILLS
+Programming: Python, C++, SQL, Bash
+ML/DL: PyTorch, TensorFlow, Scikit-Learn, OpenCV, spaCy, HuggingFace Transformers
+Tools: Docker, Kubernetes, Git, Linux, FastAPI, MLOps

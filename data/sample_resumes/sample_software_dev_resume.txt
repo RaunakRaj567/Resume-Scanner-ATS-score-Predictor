@@ -1,0 +1,23 @@
+David Miller
+Email: david.miller@example.com | Phone: +1-555-013-4412 | Location: Austin, TX
+
+SUMMARY
+Software Engineer with 4 years of experience building reliable, maintainable software systems. Strong foundation in Data Structures & Algorithms, Object Oriented Programming (SOLID), Clean Code, and CI/CD pipelines.
+
+EXPERIENCE
+Software Engineer | CoreSystems Solutions | Aug 2021 - Present
+- Designed and implemented core software features adhering to SOLID design patterns and clean code principles.
+- Refactored legacy monolithic backend components, reducing algorithmic time complexity from O(N^2) to O(N log N).
+- Maintained 90%+ test coverage using Pytest unit testing and automated CI/CD builds in GitHub Actions.
+
+Associate Software Developer | AgileSoft | Jun 2020 - Jul 2021
+- Participated in bi-weekly Agile Scrum sprints, performing peer code reviews and maintaining Jira task tracking.
+- Developed RESTful API endpoints and Linux shell scripts for internal developer tools.
+
+EDUCATION
+Bachelor of Science in Computer Science | UT Austin | 2020
+
+SKILLS
+Core Engineering: Data Structures & Algorithms, Object Oriented Programming, Clean Code, System Architecture, API Design
+Testing & Automation: Unit Testing, Pytest, CI/CD, GitHub Actions, Integration Testing
+Tools & Methods: Git, Linux, Bash, Agile, Scrum, Jira, Code Review

@@ -1,0 +1,459 @@
+/* Clean, High-Contrast Theme System for Streamlit */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* App Header Banner */
+.main-header {
+    background: linear-gradient(135deg, #1E6FF3 0%, #0F4CB8 100%);
+    padding: 24px 32px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 16px rgba(30, 111, 243, 0.2);
+}
+
+.dark-mode .main-header {
+    background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%) !important;
+    box-shadow: 0 8px 24px rgba(67, 56, 202, 0.35) !important;
+    border: 1px solid #4338CA !important;
+}
+
+.main-header h1 {
+    color: #FFFFFF !important;
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    margin: 0 0 6px 0 !important;
+    padding: 0 !important;
+}
+
+.main-header p {
+    color: #E0ECFF !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+}
+
+/* Donut Score Card */
+.donut-score-box {
+    text-align: center;
+    padding: 20px;
+    background: #F8FAFC;
+    border-radius: 14px;
+    border: 1px solid #E2E8F0;
+    margin-bottom: 16px;
+}
+
+.dark-mode .donut-score-box {
+    background: #1E293B !important;
+    border-color: #334155 !important;
+    color: #F8FAFC !important;
+}
+
+.dark-mode .donut-score-box svg circle:first-child {
+    stroke: #334155 !important;
+}
+
+.donut-score-number {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 6px 0;
+}
+
+.donut-label {
+    color: #475569;
+}
+
+.dark-mode .donut-label {
+    color: #CBD5E1 !important;
+}
+
+.score-green { color: #16A34A; }
+.score-yellow { color: #CA8A04; }
+.score-orange { color: #EA580C; }
+.score-red { color: #DC2626; }
+
+/* Subscore Breakdown Card */
+.subscore-card {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+}
+
+.dark-mode .subscore-card {
+    background-color: #1E293B !important;
+    border-color: #334155 !important;
+}
+
+.subscore-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 4px;
+}
+
+.dark-mode .subscore-header {
+    color: #F8FAFC !important;
+}
+
+.subscore-tag {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11.5px;
+    font-weight: 700;
+}
+
+.tag-excellent { background-color: #DCFCE7; color: #14532D; }
+.tag-strong { background-color: #DBEAFE; color: #1E40AF; }
+.tag-good { background-color: #FEF9C3; color: #713F12; }
+.tag-work { background-color: #FEE2E2; color: #7F1D1D; }
+
+.dark-mode .tag-excellent { background-color: #064E3B !important; color: #6EE7B7 !important; }
+.dark-mode .tag-strong { background-color: #1E3A8A !important; color: #93C5FD !important; }
+.dark-mode .tag-good { background-color: #713F12 !important; color: #FDE047 !important; }
+.dark-mode .tag-work { background-color: #7F1D1D !important; color: #FCA5A5 !important; }
+
+.subscore-bar-bg {
+    background: #E2E8F0;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dark-mode .subscore-bar-bg {
+    background: #334155 !important;
+}
+
+.subscore-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* Keyword Badges */
+.badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge-exact {
+    background-color: #DCFCE7;
+    color: #14532D;
+    border: 1px solid #86EFAC;
+}
+
+.badge-fuzzy {
+    background-color: #FEF9C3;
+    color: #713F12;
+    border: 1px solid #FDE047;
+}
+
+.badge-contextual {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+    border: 1px solid #93C5FD;
+}
+
+.dark-mode .badge-exact {
+    background-color: #064E3B !important;
+    color: #A7F3D0 !important;
+    border-color: #059669 !important;
+}
+
+.dark-mode .badge-fuzzy {
+    background-color: #713F12 !important;
+    color: #FEF08A !important;
+    border-color: #CA8A04 !important;
+}
+
+.dark-mode .badge-contextual {
+    background-color: #1E3A8A !important;
+    color: #BFDBFE !important;
+    border-color: #2563EB !important;
+}
+
+/* Suggestion Card */
+.suggestion-card {
+    background: #F8FAFC;
+    border-left: 4px solid #1E6FF3;
+    padding: 14px 16px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 12px;
+    border-top: 1px solid #E2E8F0;
+    border-right: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.dark-mode .suggestion-card {
+    background: #1E293B !important;
+    border-left-color: #60A5FA !important;
+    border-top-color: #334155 !important;
+    border-right-color: #334155 !important;
+    border-bottom-color: #334155 !important;
+}
+
+.suggestion-original {
+    font-size: 12.5px;
+    color: #64748B;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.dark-mode .suggestion-original {
+    color: #94A3B8 !important;
+}
+
+.suggestion-rewrite {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.dark-mode .suggestion-rewrite {
+    color: #F8FAFC !important;
+}
+
+.suggestion-reason {
+    font-size: 12.5px;
+    color: #334155;
+}
+
+.dark-mode .suggestion-reason {
+    color: #CBD5E1 !important;
+}
+
+/* Resume Text Preview Box */
+.resume-preview-box {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    border-radius: 8px;
+    padding: 16px;
+    max-height: 440px;
+    overflow-y: auto;
+    font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace;
+    font-size: 13px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    border: 1px solid #334155;
+}
+
+.dark-mode .resume-preview-box {
+    background-color: #020617 !important;
+    border-color: #1E293B !important;
+}
+
+.highlight-kw {
+    background-color: #EAB308;
+    color: #000000;
+    font-weight: 800;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+
+/* Native Streamlit Dark Overrides & High-Contrast Text Fixes */
+.stApp.dark-mode {
+    background-color: #0B0F17 !important;
+    color: #F1F5F9 !important;
+}
+
+.dark-mode .stMarkdown, 
+.dark-mode p, 
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3, 
+.dark-mode h4, 
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode label, 
+.dark-mode span,
+.dark-mode div[data-testid="stMarkdownContainer"] {
+    color: #F1F5F9 !important;
+}
+
+.dark-mode .stCaption,
+.dark-mode caption,
+.dark-mode small {
+    color: #94A3B8 !important;
+}
+
+/* Card Containers */
+.dark-mode div[data-testid="stVerticalBlock"] > div[style*="border"] {
+    background-color: #1E293B !important;
+    border-color: #334155 !important;
+    color: #F8FAFC !important;
+}
+
+/* Select Box & Dropdown Popovers */
+.dark-mode div[data-baseweb="select"] > div {
+    background-color: #1E293B !important;
+    color: #F8FAFC !important;
+    border-color: #475569 !important;
+}
+
+.dark-mode div[data-baseweb="popover"] ul,
+.dark-mode div[data-baseweb="menu"] {
+    background-color: #1E293B !important;
+    color: #F8FAFC !important;
+}
+
+.dark-mode div[data-baseweb="option"] {
+    background-color: #1E293B !important;
+    color: #F8FAFC !important;
+}
+
+.dark-mode div[data-baseweb="option"]:hover {
+    background-color: #334155 !important;
+}
+
+/* Inputs & Textareas */
+.dark-mode input, .dark-mode textarea {
+    background-color: #1E293B !important;
+    color: #F8FAFC !important;
+    border-color: #475569 !important;
+}
+
+/* Alert Boxes (st.info, st.success, st.warning) */
+.dark-mode div[data-testid="stAlert"] {
+    background-color: #1E293B !important;
+    color: #F8FAFC !important;
+    border-color: #334155 !important;
+}
+
+.dark-mode div[data-testid="stAlert"] p,
+.dark-mode div[data-testid="stAlert"] span {
+    color: #F8FAFC !important;
+}
+
+/* Tabs */
+.dark-mode button[data-baseweb="tab"] {
+    color: #94A3B8 !important;
+}
+
+.dark-mode button[data-baseweb="tab"][aria-selected="true"] {
+    color: #60A5FA !important;
+    border-bottom-color: #60A5FA !important;
+}
+
+/* File Uploader Dropzone */
+.dark-mode div[data-testid="stFileUploader"] section {
+    background-color: #1E293B !important;
+    border-color: #475569 !important;
+    color: #F8FAFC !important;
+}
+
+.dark-mode div[data-testid="stFileUploader"] small,
+.dark-mode div[data-testid="stFileUploader"] span {
+    color: #CBD5E1 !important;
+}
+
+/* Mobile Responsive Media Queries (< 768px) */
+@media (max-width: 768px) {
+    /* Reduce main container padding on mobile screens */
+    div[data-testid="block-container"] {
+        padding: 1rem 0.75rem !important;
+    }
+
+    /* Mobile Header Banner */
+    .main-header {
+        padding: 16px 18px !important;
+        margin-bottom: 16px !important;
+        border-radius: 10px !important;
+    }
+
+    .main-header h1 {
+        font-size: 20px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 4px !important;
+    }
+
+    .main-header p {
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Column Stacking & Touch Spacing */
+    div[data-testid="stColumn"] {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+    }
+
+    /* Responsive Resume Text Preview Box */
+    .resume-preview-box {
+        max-height: 300px !important;
+        font-size: 12px !important;
+        padding: 12px !important;
+        word-break: break-word !important;
+        overflow-x: hidden !important;
+    }
+
+    /* Donut Score Box on Mobile */
+    .donut-score-box {
+        padding: 14px 10px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .donut-score-box svg {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .donut-score-number {
+        font-size: 38px !important;
+        margin: 4px 0 !important;
+    }
+
+    .donut-label {
+        font-size: 11.5px !important;
+    }
+
+    /* Subscore Cards & Headers on Mobile */
+    .subscore-card {
+        padding: 8px 10px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .subscore-header {
+        font-size: 12px !important;
+        flex-wrap: wrap !important;
+        gap: 4px !important;
+    }
+
+    .subscore-tag {
+        font-size: 10.5px !important;
+        padding: 1px 6px !important;
+    }
+
+    /* Keyword Badges Flex Wrap */
+    .badge-group {
+        gap: 4px !important;
+    }
+
+    .badge {
+        font-size: 11px !important;
+        padding: 3px 8px !important;
+    }
+
+    /* File Uploader Touch Optimization */
+    div[data-testid="stFileUploader"] section {
+        padding: 16px 12px !important;
+    }
+}

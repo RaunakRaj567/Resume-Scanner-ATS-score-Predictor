@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Secrets
+.venv/
+env/
+venv/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+
+# Data & Database
+data/uploads/*
+!data/uploads/.gitkeep
+data/app.db
+*.db
+*.sqlite
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build & Dist
+dist/
+build/
+*.egg-info/
+public/
+
+# System & Logs
+*.log
+.DS_Store
+Thumbs.db

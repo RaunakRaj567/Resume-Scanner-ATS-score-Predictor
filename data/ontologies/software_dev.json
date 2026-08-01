@@ -1,0 +1,2013 @@
+[
+  {
+    "keyword": "JavaScript",
+    "weight": 1.0,
+    "synonyms": [
+      "ecmascript",
+      "es6",
+      "es2020",
+      "js"
+    ],
+    "context_examples": [
+      "Developed dynamic web applications using modern JavaScript and ES6+ features."
+    ]
+  },
+  {
+    "keyword": "TypeScript",
+    "weight": 0.97,
+    "synonyms": [
+      "typed javascript",
+      "ts"
+    ],
+    "context_examples": [
+      "Built scalable frontend and backend applications using TypeScript."
+    ]
+  },
+  {
+    "keyword": "Python",
+    "weight": 1.0,
+    "synonyms": [
+      "python3",
+      "cpython",
+      "scripting"
+    ],
+    "context_examples": [
+      "Developed automation scripts, backend APIs, and machine learning solutions using Python."
+    ]
+  },
+  {
+    "keyword": "Java",
+    "weight": 0.98,
+    "synonyms": [
+      "jdk",
+      "jvm",
+      "java se",
+      "java ee"
+    ],
+    "context_examples": [
+      "Built enterprise-grade applications using Java and Spring Boot."
+    ]
+  },
+  {
+    "keyword": "C#",
+    "weight": 0.95,
+    "synonyms": [
+      ".net",
+      "dotnet",
+      "asp.net"
+    ],
+    "context_examples": [
+      "Developed enterprise software and REST APIs using C# and .NET."
+    ]
+  },
+  {
+    "keyword": "C++",
+    "weight": 0.94,
+    "synonyms": [
+      "cpp",
+      "modern c++",
+      "stl"
+    ],
+    "context_examples": [
+      "Implemented high-performance systems and algorithms using C++."
+    ]
+  },
+  {
+    "keyword": "Go",
+    "weight": 0.93,
+    "synonyms": [
+      "golang",
+      "go language"
+    ],
+    "context_examples": [
+      "Built concurrent microservices using Go."
+    ]
+  },
+  {
+    "keyword": "Rust",
+    "weight": 0.91,
+    "synonyms": [
+      "memory safe programming",
+      "cargo"
+    ],
+    "context_examples": [
+      "Developed secure and high-performance applications using Rust."
+    ]
+  },
+  {
+    "keyword": "Ruby",
+    "weight": 0.87,
+    "synonyms": [
+      "ruby language",
+      "ruby gems"
+    ],
+    "context_examples": [
+      "Developed web applications using Ruby and Ruby on Rails."
+    ]
+  },
+  {
+    "keyword": "PHP",
+    "weight": 0.9,
+    "synonyms": [
+      "php8",
+      "server-side scripting"
+    ],
+    "context_examples": [
+      "Built backend applications and APIs using PHP."
+    ]
+  },
+  {
+    "keyword": "Swift",
+    "weight": 0.92,
+    "synonyms": [
+      "swift ui",
+      "ios development"
+    ],
+    "context_examples": [
+      "Developed native iOS applications using Swift."
+    ]
+  },
+  {
+    "keyword": "Objective-C",
+    "weight": 0.84,
+    "synonyms": [
+      "objc",
+      "ios legacy"
+    ],
+    "context_examples": [
+      "Maintained and enhanced legacy iOS applications using Objective-C."
+    ]
+  },
+  {
+    "keyword": "Kotlin",
+    "weight": 0.94,
+    "synonyms": [
+      "android kotlin",
+      "jetbrains kotlin"
+    ],
+    "context_examples": [
+      "Built modern Android applications using Kotlin."
+    ]
+  },
+  {
+    "keyword": "Dart",
+    "weight": 0.9,
+    "synonyms": [
+      "flutter language"
+    ],
+    "context_examples": [
+      "Developed cross-platform applications using Dart."
+    ]
+  },
+  {
+    "keyword": "Bash",
+    "weight": 0.88,
+    "synonyms": [
+      "shell scripting",
+      "linux shell",
+      "bash scripting"
+    ],
+    "context_examples": [
+      "Automated deployment and maintenance tasks using Bash scripts."
+    ]
+  },
+  {
+    "keyword": "PowerShell",
+    "weight": 0.86,
+    "synonyms": [
+      "windows scripting",
+      "powershell core"
+    ],
+    "context_examples": [
+      "Automated Windows infrastructure using PowerShell scripts."
+    ]
+  },
+  {
+    "keyword": "SQL",
+    "weight": 0.98,
+    "synonyms": [
+      "structured query language",
+      "ansi sql",
+      "sql programming"
+    ],
+    "context_examples": [
+      "Designed complex SQL queries and optimized relational databases."
+    ]
+  },
+  {
+    "keyword": "Scala",
+    "weight": 0.85,
+    "synonyms": [
+      "functional programming",
+      "scala language"
+    ],
+    "context_examples": [
+      "Developed distributed data processing applications using Scala."
+    ]
+  },
+  {
+    "keyword": "Perl",
+    "weight": 0.78,
+    "synonyms": [
+      "perl scripting"
+    ],
+    "context_examples": [
+      "Maintained automation and system administration scripts using Perl."
+    ]
+  },
+  {
+    "keyword": "React",
+    "weight": 1.0,
+    "synonyms": [
+      "reactjs",
+      "react.js",
+      "hooks",
+      "jsx"
+    ],
+    "context_examples": [
+      "Built responsive single-page applications using React and Hooks."
+    ]
+  },
+  {
+    "keyword": "Next.js",
+    "weight": 0.98,
+    "synonyms": [
+      "nextjs",
+      "ssr",
+      "isr",
+      "app router"
+    ],
+    "context_examples": [
+      "Developed SEO-friendly applications using Next.js with server-side rendering."
+    ]
+  },
+  {
+    "keyword": "Angular",
+    "weight": 0.94,
+    "synonyms": [
+      "angular framework",
+      "rxjs",
+      "angular cli"
+    ],
+    "context_examples": [
+      "Developed enterprise web applications using Angular."
+    ]
+  },
+  {
+    "keyword": "Vue.js",
+    "weight": 0.93,
+    "synonyms": [
+      "vue",
+      "vue3",
+      "composition api"
+    ],
+    "context_examples": [
+      "Built interactive frontend interfaces using Vue.js."
+    ]
+  },
+  {
+    "keyword": "Node.js",
+    "weight": 0.98,
+    "synonyms": [
+      "node",
+      "node runtime",
+      "javascript runtime"
+    ],
+    "context_examples": [
+      "Developed scalable backend services using Node.js."
+    ]
+  },
+  {
+    "keyword": "Express.js",
+    "weight": 0.95,
+    "synonyms": [
+      "express",
+      "express framework"
+    ],
+    "context_examples": [
+      "Built RESTful APIs using Express.js."
+    ]
+  },
+  {
+    "keyword": "NestJS",
+    "weight": 0.92,
+    "synonyms": [
+      "nestjs framework",
+      "typescript backend"
+    ],
+    "context_examples": [
+      "Developed modular enterprise APIs using NestJS."
+    ]
+  },
+  {
+    "keyword": "Spring Boot",
+    "weight": 0.98,
+    "synonyms": [
+      "spring",
+      "spring framework",
+      "spring mvc"
+    ],
+    "context_examples": [
+      "Developed enterprise microservices using Spring Boot."
+    ]
+  },
+  {
+    "keyword": "Hibernate",
+    "weight": 0.91,
+    "synonyms": [
+      "hibernate orm",
+      "jpa",
+      "jakarta persistence"
+    ],
+    "context_examples": [
+      "Implemented database persistence using Hibernate ORM."
+    ]
+  },
+  {
+    "keyword": "Django",
+    "weight": 0.95,
+    "synonyms": [
+      "django framework",
+      "django orm"
+    ],
+    "context_examples": [
+      "Built secure web applications using Django."
+    ]
+  },
+  {
+    "keyword": "Flask",
+    "weight": 0.92,
+    "synonyms": [
+      "microframework",
+      "python flask"
+    ],
+    "context_examples": [
+      "Developed lightweight REST APIs using Flask."
+    ]
+  },
+  {
+    "keyword": "FastAPI",
+    "weight": 0.95,
+    "synonyms": [
+      "python api",
+      "async api",
+      "uvicorn"
+    ],
+    "context_examples": [
+      "Built high-performance asynchronous APIs using FastAPI."
+    ]
+  },
+  {
+    "keyword": "ASP.NET Core",
+    "weight": 0.94,
+    "synonyms": [
+      "asp net core",
+      ".net core",
+      "dotnet"
+    ],
+    "context_examples": [
+      "Developed enterprise APIs using ASP.NET Core."
+    ]
+  },
+  {
+    "keyword": "Ruby on Rails",
+    "weight": 0.88,
+    "synonyms": [
+      "rails",
+      "ror"
+    ],
+    "context_examples": [
+      "Developed MVC web applications using Ruby on Rails."
+    ]
+  },
+  {
+    "keyword": "Laravel",
+    "weight": 0.91,
+    "synonyms": [
+      "php laravel",
+      "eloquent orm"
+    ],
+    "context_examples": [
+      "Built scalable backend systems using Laravel."
+    ]
+  },
+  {
+    "keyword": "Nuxt.js",
+    "weight": 0.88,
+    "synonyms": [
+      "nuxt",
+      "vue ssr"
+    ],
+    "context_examples": [
+      "Developed SEO-optimized Vue applications using Nuxt.js."
+    ]
+  },
+  {
+    "keyword": "Svelte",
+    "weight": 0.86,
+    "synonyms": [
+      "sveltekit",
+      "svelte framework"
+    ],
+    "context_examples": [
+      "Developed lightweight web applications using Svelte."
+    ]
+  },
+  {
+    "keyword": "Electron",
+    "weight": 0.84,
+    "synonyms": [
+      "desktop apps",
+      "cross-platform desktop"
+    ],
+    "context_examples": [
+      "Built cross-platform desktop applications using Electron."
+    ]
+  },
+  {
+    "keyword": "React Native",
+    "weight": 0.92,
+    "synonyms": [
+      "rn",
+      "cross-platform mobile"
+    ],
+    "context_examples": [
+      "Developed Android and iOS applications using React Native."
+    ]
+  },
+  {
+    "keyword": "Flutter",
+    "weight": 0.93,
+    "synonyms": [
+      "dart flutter",
+      "flutter sdk"
+    ],
+    "context_examples": [
+      "Built cross-platform mobile applications using Flutter."
+    ]
+  },
+  {
+    "keyword": "Bootstrap",
+    "weight": 0.88,
+    "synonyms": [
+      "bootstrap5",
+      "responsive css"
+    ],
+    "context_examples": [
+      "Designed responsive interfaces using Bootstrap."
+    ]
+  },
+  {
+    "keyword": "Tailwind CSS",
+    "weight": 0.93,
+    "synonyms": [
+      "tailwind",
+      "utility-first css"
+    ],
+    "context_examples": [
+      "Developed responsive user interfaces using Tailwind CSS."
+    ]
+  },
+  {
+    "keyword": "Material UI",
+    "weight": 0.88,
+    "synonyms": [
+      "mui",
+      "material design"
+    ],
+    "context_examples": [
+      "Implemented modern React interfaces using Material UI."
+    ]
+  },
+  {
+    "keyword": "Redux",
+    "weight": 0.91,
+    "synonyms": [
+      "redux toolkit",
+      "global state management"
+    ],
+    "context_examples": [
+      "Managed application state using Redux Toolkit."
+    ]
+  },
+  {
+    "keyword": "React Query",
+    "weight": 0.86,
+    "synonyms": [
+      "tanstack query",
+      "server state"
+    ],
+    "context_examples": [
+      "Optimized API caching and synchronization using React Query."
+    ]
+  },
+  {
+    "keyword": "Git",
+    "weight": 1.0,
+    "synonyms": [
+      "version control",
+      "git workflow",
+      "source control",
+      "branching",
+      "merge"
+    ],
+    "context_examples": [
+      "Managed source code using Git with feature branching and pull requests."
+    ]
+  },
+  {
+    "keyword": "GitHub",
+    "weight": 0.95,
+    "synonyms": [
+      "github repositories",
+      "github projects",
+      "github enterprise"
+    ],
+    "context_examples": [
+      "Collaborated on software projects using GitHub repositories and pull requests."
+    ]
+  },
+  {
+    "keyword": "GitLab",
+    "weight": 0.9,
+    "synonyms": [
+      "gitlab repositories",
+      "gitlab devops",
+      "gitlab ci"
+    ],
+    "context_examples": [
+      "Managed repositories and CI/CD pipelines using GitLab."
+    ]
+  },
+  {
+    "keyword": "Bitbucket",
+    "weight": 0.82,
+    "synonyms": [
+      "atlassian bitbucket",
+      "bitbucket repositories"
+    ],
+    "context_examples": [
+      "Maintained enterprise source code repositories using Bitbucket."
+    ]
+  },
+  {
+    "keyword": "CI/CD",
+    "weight": 0.98,
+    "synonyms": [
+      "continuous integration",
+      "continuous deployment",
+      "continuous delivery",
+      "pipeline automation"
+    ],
+    "context_examples": [
+      "Built automated CI/CD pipelines reducing deployment time and release errors."
+    ]
+  },
+  {
+    "keyword": "Jenkins",
+    "weight": 0.93,
+    "synonyms": [
+      "jenkins pipeline",
+      "jenkinsfile",
+      "build automation"
+    ],
+    "context_examples": [
+      "Configured Jenkins pipelines for automated testing and deployments."
+    ]
+  },
+  {
+    "keyword": "GitHub Actions",
+    "weight": 0.93,
+    "synonyms": [
+      "github workflows",
+      "actions workflow",
+      "automation workflows"
+    ],
+    "context_examples": [
+      "Automated build, testing, and deployment using GitHub Actions."
+    ]
+  },
+  {
+    "keyword": "GitLab CI",
+    "weight": 0.9,
+    "synonyms": [
+      "gitlab pipeline",
+      "gitlab runner"
+    ],
+    "context_examples": [
+      "Implemented GitLab CI pipelines for continuous integration."
+    ]
+  },
+  {
+    "keyword": "CircleCI",
+    "weight": 0.82,
+    "synonyms": [
+      "circle ci",
+      "cloud ci"
+    ],
+    "context_examples": [
+      "Configured CircleCI workflows for automated software delivery."
+    ]
+  },
+  {
+    "keyword": "Docker",
+    "weight": 0.97,
+    "synonyms": [
+      "containerization",
+      "docker compose",
+      "dockerfile",
+      "containers"
+    ],
+    "context_examples": [
+      "Containerized applications using Docker for reproducible deployments."
+    ]
+  },
+  {
+    "keyword": "Kubernetes",
+    "weight": 0.96,
+    "synonyms": [
+      "k8s",
+      "helm",
+      "kubectl",
+      "container orchestration"
+    ],
+    "context_examples": [
+      "Managed scalable microservices deployments using Kubernetes."
+    ]
+  },
+  {
+    "keyword": "AWS",
+    "weight": 0.97,
+    "synonyms": [
+      "amazon web services",
+      "ec2",
+      "s3",
+      "lambda",
+      "iam",
+      "cloudformation"
+    ],
+    "context_examples": [
+      "Designed scalable cloud infrastructure on AWS."
+    ]
+  },
+  {
+    "keyword": "Microsoft Azure",
+    "weight": 0.9,
+    "synonyms": [
+      "azure",
+      "azure app service",
+      "azure devops",
+      "aks"
+    ],
+    "context_examples": [
+      "Built enterprise cloud solutions using Microsoft Azure."
+    ]
+  },
+  {
+    "keyword": "Google Cloud Platform",
+    "weight": 0.9,
+    "synonyms": [
+      "gcp",
+      "google cloud",
+      "cloud run",
+      "gke",
+      "bigquery"
+    ],
+    "context_examples": [
+      "Deployed distributed applications on Google Cloud Platform."
+    ]
+  },
+  {
+    "keyword": "Terraform",
+    "weight": 0.93,
+    "synonyms": [
+      "iac",
+      "infrastructure as code",
+      "terraform modules"
+    ],
+    "context_examples": [
+      "Provisioned cloud infrastructure using Terraform."
+    ]
+  },
+  {
+    "keyword": "Ansible",
+    "weight": 0.9,
+    "synonyms": [
+      "configuration management",
+      "playbooks",
+      "automation"
+    ],
+    "context_examples": [
+      "Automated server provisioning and configuration using Ansible."
+    ]
+  },
+  {
+    "keyword": "CloudFormation",
+    "weight": 0.86,
+    "synonyms": [
+      "aws cloudformation",
+      "cfn",
+      "cloud templates"
+    ],
+    "context_examples": [
+      "Automated AWS infrastructure deployment using CloudFormation."
+    ]
+  },
+  {
+    "keyword": "Prometheus",
+    "weight": 0.9,
+    "synonyms": [
+      "metrics monitoring",
+      "prometheus server"
+    ],
+    "context_examples": [
+      "Monitored infrastructure metrics using Prometheus."
+    ]
+  },
+  {
+    "keyword": "Grafana",
+    "weight": 0.89,
+    "synonyms": [
+      "dashboarding",
+      "grafana dashboards",
+      "metrics visualization"
+    ],
+    "context_examples": [
+      "Created Grafana dashboards for infrastructure monitoring."
+    ]
+  },
+  {
+    "keyword": "ELK Stack",
+    "weight": 0.88,
+    "synonyms": [
+      "elasticsearch",
+      "logstash",
+      "kibana",
+      "elastic stack"
+    ],
+    "context_examples": [
+      "Centralized application logs using the ELK Stack."
+    ]
+  },
+  {
+    "keyword": "Sentry",
+    "weight": 0.82,
+    "synonyms": [
+      "error monitoring",
+      "exception tracking",
+      "crash reporting"
+    ],
+    "context_examples": [
+      "Tracked runtime exceptions using Sentry."
+    ]
+  },
+  {
+    "keyword": "Relational Databases",
+    "weight": 0.95,
+    "synonyms": [
+      "rdbms",
+      "sql databases",
+      "postgresql",
+      "mysql",
+      "sql server",
+      "oracle database"
+    ],
+    "context_examples": [
+      "Designed normalized relational database schemas using PostgreSQL and MySQL."
+    ]
+  },
+  {
+    "keyword": "PostgreSQL",
+    "weight": 0.92,
+    "synonyms": [
+      "postgres",
+      "pgsql"
+    ],
+    "context_examples": [
+      "Optimized PostgreSQL queries using indexes, partitioning, and execution plans."
+    ]
+  },
+  {
+    "keyword": "MySQL",
+    "weight": 0.9,
+    "synonyms": [
+      "mysql server",
+      "mariadb"
+    ],
+    "context_examples": [
+      "Developed high-performance backend systems using MySQL databases."
+    ]
+  },
+  {
+    "keyword": "Microsoft SQL Server",
+    "weight": 0.88,
+    "synonyms": [
+      "sql server",
+      "mssql",
+      "t-sql"
+    ],
+    "context_examples": [
+      "Built enterprise reporting solutions using SQL Server and T-SQL."
+    ]
+  },
+  {
+    "keyword": "Oracle Database",
+    "weight": 0.88,
+    "synonyms": [
+      "oracle",
+      "pl/sql"
+    ],
+    "context_examples": [
+      "Managed enterprise Oracle databases with PL/SQL stored procedures."
+    ]
+  },
+  {
+    "keyword": "SQL",
+    "weight": 0.98,
+    "synonyms": [
+      "structured query language",
+      "joins",
+      "stored procedures",
+      "views",
+      "indexes"
+    ],
+    "context_examples": [
+      "Developed complex SQL queries for analytics and transactional systems."
+    ]
+  },
+  {
+    "keyword": "Database Normalization",
+    "weight": 0.86,
+    "synonyms": [
+      "1nf",
+      "2nf",
+      "3nf",
+      "bcnf"
+    ],
+    "context_examples": [
+      "Designed normalized database schemas to eliminate redundancy."
+    ]
+  },
+  {
+    "keyword": "Database Indexing",
+    "weight": 0.88,
+    "synonyms": [
+      "btree index",
+      "hash index",
+      "composite index"
+    ],
+    "context_examples": [
+      "Improved query performance using optimized indexing strategies."
+    ]
+  },
+  {
+    "keyword": "Transactions",
+    "weight": 0.86,
+    "synonyms": [
+      "acid",
+      "commit",
+      "rollback"
+    ],
+    "context_examples": [
+      "Implemented ACID-compliant transactions for financial systems."
+    ]
+  },
+  {
+    "keyword": "Database Optimization",
+    "weight": 0.88,
+    "synonyms": [
+      "query optimization",
+      "execution plan",
+      "performance tuning"
+    ],
+    "context_examples": [
+      "Reduced query execution time through indexing and query optimization."
+    ]
+  },
+  {
+    "keyword": "NoSQL Databases",
+    "weight": 0.92,
+    "synonyms": [
+      "nosql",
+      "document database",
+      "key value database",
+      "wide column database"
+    ],
+    "context_examples": [
+      "Developed scalable applications using NoSQL databases."
+    ]
+  },
+  {
+    "keyword": "MongoDB",
+    "weight": 0.92,
+    "synonyms": [
+      "mongodb atlas",
+      "document database"
+    ],
+    "context_examples": [
+      "Designed flexible document schemas using MongoDB."
+    ]
+  },
+  {
+    "keyword": "Cassandra",
+    "weight": 0.84,
+    "synonyms": [
+      "apache cassandra",
+      "wide column store"
+    ],
+    "context_examples": [
+      "Handled high-volume distributed workloads using Cassandra."
+    ]
+  },
+  {
+    "keyword": "DynamoDB",
+    "weight": 0.86,
+    "synonyms": [
+      "aws dynamodb",
+      "key value database"
+    ],
+    "context_examples": [
+      "Built serverless applications backed by Amazon DynamoDB."
+    ]
+  },
+  {
+    "keyword": "Redis",
+    "weight": 0.92,
+    "synonyms": [
+      "redis cache",
+      "in-memory database"
+    ],
+    "context_examples": [
+      "Implemented Redis caching to reduce API latency."
+    ]
+  },
+  {
+    "keyword": "Memcached",
+    "weight": 0.82,
+    "synonyms": [
+      "distributed cache",
+      "memory cache"
+    ],
+    "context_examples": [
+      "Improved application response times using Memcached."
+    ]
+  },
+  {
+    "keyword": "Caching",
+    "weight": 0.88,
+    "synonyms": [
+      "application cache",
+      "distributed cache",
+      "cache invalidation"
+    ],
+    "context_examples": [
+      "Implemented caching strategies to improve scalability."
+    ]
+  },
+  {
+    "keyword": "Hibernate",
+    "weight": 0.9,
+    "synonyms": [
+      "hibernate orm",
+      "jpa"
+    ],
+    "context_examples": [
+      "Developed enterprise applications using Hibernate ORM."
+    ]
+  },
+  {
+    "keyword": "JPA",
+    "weight": 0.9,
+    "synonyms": [
+      "jakarta persistence",
+      "java persistence api"
+    ],
+    "context_examples": [
+      "Managed relational entities using JPA repositories."
+    ]
+  },
+  {
+    "keyword": "Sequelize",
+    "weight": 0.84,
+    "synonyms": [
+      "sequelize orm",
+      "node orm"
+    ],
+    "context_examples": [
+      "Integrated Sequelize ORM for Node.js backend services."
+    ]
+  },
+  {
+    "keyword": "Prisma",
+    "weight": 0.88,
+    "synonyms": [
+      "prisma orm",
+      "prisma client"
+    ],
+    "context_examples": [
+      "Built type-safe database access layers using Prisma ORM."
+    ]
+  },
+  {
+    "keyword": "SQLAlchemy",
+    "weight": 0.88,
+    "synonyms": [
+      "python orm",
+      "alchemy"
+    ],
+    "context_examples": [
+      "Developed scalable Python applications using SQLAlchemy ORM."
+    ]
+  },
+  {
+    "keyword": "Database Migration",
+    "weight": 0.84,
+    "synonyms": [
+      "schema migration",
+      "flyway",
+      "liquibase"
+    ],
+    "context_examples": [
+      "Managed schema evolution using automated migration tools."
+    ]
+  },
+  {
+    "keyword": "Connection Pooling",
+    "weight": 0.84,
+    "synonyms": [
+      "database pool",
+      "jdbc pool",
+      "hikaricp"
+    ],
+    "context_examples": [
+      "Configured connection pools for high-throughput applications."
+    ]
+  },
+  {
+    "keyword": "Database Replication",
+    "weight": 0.82,
+    "synonyms": [
+      "master replica",
+      "read replica",
+      "replication"
+    ],
+    "context_examples": [
+      "Configured database replication for high availability."
+    ]
+  },
+  {
+    "keyword": "Unit Testing",
+    "weight": 0.96,
+    "synonyms": [
+      "unit tests",
+      "test automation",
+      "white box testing"
+    ],
+    "context_examples": [
+      "Developed comprehensive unit tests to ensure code reliability."
+    ]
+  },
+  {
+    "keyword": "JUnit",
+    "weight": 0.94,
+    "synonyms": [
+      "junit5",
+      "junit4",
+      "java unit testing"
+    ],
+    "context_examples": [
+      "Created automated Java unit tests using JUnit 5."
+    ]
+  },
+  {
+    "keyword": "PyTest",
+    "weight": 0.93,
+    "synonyms": [
+      "pytest framework",
+      "python testing"
+    ],
+    "context_examples": [
+      "Implemented automated testing using the PyTest framework."
+    ]
+  },
+  {
+    "keyword": "Jest",
+    "weight": 0.92,
+    "synonyms": [
+      "javascript testing",
+      "react testing"
+    ],
+    "context_examples": [
+      "Built frontend unit tests using Jest."
+    ]
+  },
+  {
+    "keyword": "Mocha",
+    "weight": 0.86,
+    "synonyms": [
+      "node testing",
+      "mocha framework"
+    ],
+    "context_examples": [
+      "Developed backend unit tests using Mocha."
+    ]
+  },
+  {
+    "keyword": "Mockito",
+    "weight": 0.9,
+    "synonyms": [
+      "mock objects",
+      "mock framework"
+    ],
+    "context_examples": [
+      "Used Mockito to mock dependencies during Java unit testing."
+    ]
+  },
+  {
+    "keyword": "Integration Testing",
+    "weight": 0.94,
+    "synonyms": [
+      "integration tests",
+      "system integration testing"
+    ],
+    "context_examples": [
+      "Validated communication between application modules through integration testing."
+    ]
+  },
+  {
+    "keyword": "API Testing",
+    "weight": 0.93,
+    "synonyms": [
+      "rest api testing",
+      "service testing"
+    ],
+    "context_examples": [
+      "Performed automated API testing for REST services."
+    ]
+  },
+  {
+    "keyword": "Postman",
+    "weight": 0.9,
+    "synonyms": [
+      "postman collections",
+      "api client"
+    ],
+    "context_examples": [
+      "Created Postman collections for automated API validation."
+    ]
+  },
+  {
+    "keyword": "Swagger Testing",
+    "weight": 0.82,
+    "synonyms": [
+      "openapi testing",
+      "swagger ui"
+    ],
+    "context_examples": [
+      "Verified REST endpoints using Swagger documentation."
+    ]
+  },
+  {
+    "keyword": "End-to-End Testing",
+    "weight": 0.94,
+    "synonyms": [
+      "e2e testing",
+      "functional testing"
+    ],
+    "context_examples": [
+      "Implemented end-to-end testing for complete application workflows."
+    ]
+  },
+  {
+    "keyword": "Selenium",
+    "weight": 0.92,
+    "synonyms": [
+      "selenium webdriver",
+      "browser automation"
+    ],
+    "context_examples": [
+      "Automated browser testing using Selenium WebDriver."
+    ]
+  },
+  {
+    "keyword": "Cypress",
+    "weight": 0.91,
+    "synonyms": [
+      "cypress io",
+      "frontend testing"
+    ],
+    "context_examples": [
+      "Developed reliable frontend E2E tests using Cypress."
+    ]
+  },
+  {
+    "keyword": "Playwright",
+    "weight": 0.91,
+    "synonyms": [
+      "browser automation",
+      "microsoft playwright"
+    ],
+    "context_examples": [
+      "Executed cross-browser testing with Playwright."
+    ]
+  },
+  {
+    "keyword": "TestNG",
+    "weight": 0.88,
+    "synonyms": [
+      "java testing framework",
+      "test suites"
+    ],
+    "context_examples": [
+      "Organized Java automation tests using TestNG."
+    ]
+  },
+  {
+    "keyword": "Behavior Driven Development",
+    "weight": 0.9,
+    "synonyms": [
+      "bdd",
+      "gherkin"
+    ],
+    "context_examples": [
+      "Implemented Behavior Driven Development for acceptance testing."
+    ]
+  },
+  {
+    "keyword": "Cucumber",
+    "weight": 0.89,
+    "synonyms": [
+      "gherkin",
+      "bdd framework"
+    ],
+    "context_examples": [
+      "Created executable acceptance tests using Cucumber."
+    ]
+  },
+  {
+    "keyword": "Test Driven Development",
+    "weight": 0.93,
+    "synonyms": [
+      "tdd",
+      "red green refactor"
+    ],
+    "context_examples": [
+      "Applied Test Driven Development to improve software quality."
+    ]
+  },
+  {
+    "keyword": "Regression Testing",
+    "weight": 0.91,
+    "synonyms": [
+      "regression suite",
+      "automated regression"
+    ],
+    "context_examples": [
+      "Executed regression test suites before production releases."
+    ]
+  },
+  {
+    "keyword": "Smoke Testing",
+    "weight": 0.84,
+    "synonyms": [
+      "build verification",
+      "sanity testing"
+    ],
+    "context_examples": [
+      "Performed smoke testing after deployment."
+    ]
+  },
+  {
+    "keyword": "Performance Testing",
+    "weight": 0.92,
+    "synonyms": [
+      "load testing",
+      "stress testing",
+      "benchmarking"
+    ],
+    "context_examples": [
+      "Measured application scalability through performance testing."
+    ]
+  },
+  {
+    "keyword": "JMeter",
+    "weight": 0.89,
+    "synonyms": [
+      "apache jmeter",
+      "load testing"
+    ],
+    "context_examples": [
+      "Performed load testing using Apache JMeter."
+    ]
+  },
+  {
+    "keyword": "Locust",
+    "weight": 0.85,
+    "synonyms": [
+      "python load testing",
+      "distributed load testing"
+    ],
+    "context_examples": [
+      "Simulated thousands of concurrent users using Locust."
+    ]
+  },
+  {
+    "keyword": "Static Code Analysis",
+    "weight": 0.92,
+    "synonyms": [
+      "static analysis",
+      "code quality analysis"
+    ],
+    "context_examples": [
+      "Applied static analysis tools to improve maintainability."
+    ]
+  },
+  {
+    "keyword": "SonarQube",
+    "weight": 0.91,
+    "synonyms": [
+      "code quality",
+      "technical debt"
+    ],
+    "context_examples": [
+      "Analyzed code quality and security vulnerabilities using SonarQube."
+    ]
+  },
+  {
+    "keyword": "ESLint",
+    "weight": 0.88,
+    "synonyms": [
+      "javascript linting",
+      "typescript linting"
+    ],
+    "context_examples": [
+      "Maintained consistent coding standards using ESLint."
+    ]
+  },
+  {
+    "keyword": "Prettier",
+    "weight": 0.84,
+    "synonyms": [
+      "code formatter",
+      "automatic formatting"
+    ],
+    "context_examples": [
+      "Standardized code formatting across projects using Prettier."
+    ]
+  },
+  {
+    "keyword": "Code Coverage",
+    "weight": 0.9,
+    "synonyms": [
+      "coverage reports",
+      "test coverage"
+    ],
+    "context_examples": [
+      "Maintained over 90% code coverage with automated testing."
+    ]
+  },
+  {
+    "keyword": "Code Quality",
+    "weight": 0.92,
+    "synonyms": [
+      "maintainability",
+      "software quality",
+      "clean code"
+    ],
+    "context_examples": [
+      "Improved software quality through automated quality gates."
+    ]
+  },
+  {
+    "keyword": "Performance Profiling",
+    "weight": 0.89,
+    "synonyms": [
+      "profiling",
+      "cpu profiling",
+      "memory profiling"
+    ],
+    "context_examples": [
+      "Identified application bottlenecks through performance profiling."
+    ]
+  },
+  {
+    "keyword": "HTML5",
+    "weight": 0.96,
+    "synonyms": [
+      "semantic html",
+      "html"
+    ],
+    "context_examples": [
+      "Developed semantic and SEO-friendly web pages using HTML5."
+    ]
+  },
+  {
+    "keyword": "CSS3",
+    "weight": 0.95,
+    "synonyms": [
+      "css",
+      "modern css",
+      "flexbox",
+      "grid layout"
+    ],
+    "context_examples": [
+      "Built responsive user interfaces using CSS3 Flexbox and Grid."
+    ]
+  },
+  {
+    "keyword": "Responsive Web Design",
+    "weight": 0.94,
+    "synonyms": [
+      "responsive design",
+      "mobile first",
+      "adaptive layouts"
+    ],
+    "context_examples": [
+      "Created responsive websites optimized for desktop, tablet, and mobile devices."
+    ]
+  },
+  {
+    "keyword": "Bootstrap",
+    "weight": 0.9,
+    "synonyms": [
+      "bootstrap 5",
+      "css framework"
+    ],
+    "context_examples": [
+      "Developed responsive layouts using Bootstrap components."
+    ]
+  },
+  {
+    "keyword": "Tailwind CSS",
+    "weight": 0.95,
+    "synonyms": [
+      "tailwind",
+      "utility first css"
+    ],
+    "context_examples": [
+      "Built modern interfaces using Tailwind CSS utility classes."
+    ]
+  },
+  {
+    "keyword": "Sass",
+    "weight": 0.87,
+    "synonyms": [
+      "scss",
+      "css preprocessor"
+    ],
+    "context_examples": [
+      "Improved stylesheet maintainability using Sass modules."
+    ]
+  },
+  {
+    "keyword": "Less",
+    "weight": 0.8,
+    "synonyms": [
+      "less css",
+      "css preprocessor"
+    ],
+    "context_examples": [
+      "Organized reusable styles using Less."
+    ]
+  },
+  {
+    "keyword": "Material UI",
+    "weight": 0.9,
+    "synonyms": [
+      "mui",
+      "material design"
+    ],
+    "context_examples": [
+      "Built enterprise dashboards using Material UI."
+    ]
+  },
+  {
+    "keyword": "Ant Design",
+    "weight": 0.86,
+    "synonyms": [
+      "antd",
+      "react ui library"
+    ],
+    "context_examples": [
+      "Developed admin dashboards using Ant Design."
+    ]
+  },
+  {
+    "keyword": "Styled Components",
+    "weight": 0.84,
+    "synonyms": [
+      "css in js",
+      "styled-components"
+    ],
+    "context_examples": [
+      "Implemented reusable component styling using Styled Components."
+    ]
+  },
+  {
+    "keyword": "Accessibility",
+    "weight": 0.95,
+    "synonyms": [
+      "wcag",
+      "aria",
+      "inclusive design"
+    ],
+    "context_examples": [
+      "Designed accessible web applications following WCAG guidelines."
+    ]
+  },
+  {
+    "keyword": "ARIA",
+    "weight": 0.88,
+    "synonyms": [
+      "accessible rich internet applications",
+      "screen readers"
+    ],
+    "context_examples": [
+      "Enhanced accessibility using ARIA roles and attributes."
+    ]
+  },
+  {
+    "keyword": "Cross Browser Compatibility",
+    "weight": 0.9,
+    "synonyms": [
+      "browser compatibility",
+      "cross platform ui"
+    ],
+    "context_examples": [
+      "Ensured applications worked consistently across modern browsers."
+    ]
+  },
+  {
+    "keyword": "Progressive Web Apps",
+    "weight": 0.89,
+    "synonyms": [
+      "pwa",
+      "offline web apps"
+    ],
+    "context_examples": [
+      "Developed Progressive Web Apps with offline support."
+    ]
+  },
+  {
+    "keyword": "Web Performance Optimization",
+    "weight": 0.94,
+    "synonyms": [
+      "performance optimization",
+      "frontend optimization"
+    ],
+    "context_examples": [
+      "Improved page load speed and Core Web Vitals."
+    ]
+  },
+  {
+    "keyword": "Google Lighthouse",
+    "weight": 0.89,
+    "synonyms": [
+      "lighthouse audit",
+      "performance audit"
+    ],
+    "context_examples": [
+      "Optimized websites using Google Lighthouse reports."
+    ]
+  },
+  {
+    "keyword": "Core Web Vitals",
+    "weight": 0.91,
+    "synonyms": [
+      "lcp",
+      "cls",
+      "inp",
+      "fid"
+    ],
+    "context_examples": [
+      "Improved Core Web Vitals scores to enhance user experience."
+    ]
+  },
+  {
+    "keyword": "Lazy Loading",
+    "weight": 0.89,
+    "synonyms": [
+      "deferred loading",
+      "on demand loading"
+    ],
+    "context_examples": [
+      "Reduced initial page load time through lazy loading."
+    ]
+  },
+  {
+    "keyword": "Code Splitting",
+    "weight": 0.9,
+    "synonyms": [
+      "bundle splitting",
+      "dynamic imports"
+    ],
+    "context_examples": [
+      "Implemented code splitting for faster application startup."
+    ]
+  },
+  {
+    "keyword": "Tree Shaking",
+    "weight": 0.88,
+    "synonyms": [
+      "dead code elimination",
+      "bundle optimization"
+    ],
+    "context_examples": [
+      "Reduced bundle size using tree shaking."
+    ]
+  },
+  {
+    "keyword": "Webpack",
+    "weight": 0.9,
+    "synonyms": [
+      "module bundler",
+      "webpack bundling"
+    ],
+    "context_examples": [
+      "Configured Webpack for optimized production builds."
+    ]
+  },
+  {
+    "keyword": "Vite",
+    "weight": 0.91,
+    "synonyms": [
+      "vite bundler",
+      "frontend tooling"
+    ],
+    "context_examples": [
+      "Built high-performance frontend applications using Vite."
+    ]
+  },
+  {
+    "keyword": "Babel",
+    "weight": 0.84,
+    "synonyms": [
+      "javascript transpiler",
+      "es6 transpiler"
+    ],
+    "context_examples": [
+      "Transpiled modern JavaScript using Babel."
+    ]
+  },
+  {
+    "keyword": "npm",
+    "weight": 0.9,
+    "synonyms": [
+      "node package manager",
+      "npm packages"
+    ],
+    "context_examples": [
+      "Managed frontend dependencies using npm."
+    ]
+  },
+  {
+    "keyword": "Yarn",
+    "weight": 0.85,
+    "synonyms": [
+      "yarn package manager"
+    ],
+    "context_examples": [
+      "Installed and managed project dependencies with Yarn."
+    ]
+  },
+  {
+    "keyword": "SEO Optimization",
+    "weight": 0.89,
+    "synonyms": [
+      "technical seo",
+      "search engine optimization"
+    ],
+    "context_examples": [
+      "Implemented SEO best practices for improved search rankings."
+    ]
+  },
+  {
+    "keyword": "Browser Developer Tools",
+    "weight": 0.84,
+    "synonyms": [
+      "chrome devtools",
+      "firefox devtools"
+    ],
+    "context_examples": [
+      "Debugged frontend applications using browser developer tools."
+    ]
+  },
+  {
+    "keyword": "Frontend Debugging",
+    "weight": 0.86,
+    "synonyms": [
+      "ui debugging",
+      "javascript debugging"
+    ],
+    "context_examples": [
+      "Resolved frontend issues through systematic debugging."
+    ]
+  },
+  {
+    "keyword": "UI/UX Design Principles",
+    "weight": 0.9,
+    "synonyms": [
+      "user experience",
+      "user interface",
+      "design thinking"
+    ],
+    "context_examples": [
+      "Applied UI/UX principles to create intuitive user interfaces."
+    ]
+  },
+  {
+    "keyword": "Figma",
+    "weight": 0.88,
+    "synonyms": [
+      "ui prototyping",
+      "design collaboration"
+    ],
+    "context_examples": [
+      "Converted Figma designs into responsive web applications."
+    ]
+  },
+  {
+    "keyword": "OWASP Top 10",
+    "weight": 0.98,
+    "synonyms": [
+      "owasp",
+      "application security",
+      "web security vulnerabilities"
+    ],
+    "context_examples": [
+      "Applied OWASP Top 10 guidelines to identify and remediate application vulnerabilities."
+    ]
+  },
+  {
+    "keyword": "Secure Coding",
+    "weight": 0.96,
+    "synonyms": [
+      "secure software development",
+      "security by design",
+      "defensive programming"
+    ],
+    "context_examples": [
+      "Developed applications following secure coding standards and best practices."
+    ]
+  },
+  {
+    "keyword": "Authentication",
+    "weight": 0.95,
+    "synonyms": [
+      "identity verification",
+      "user authentication",
+      "login security"
+    ],
+    "context_examples": [
+      "Implemented secure authentication mechanisms using industry-standard protocols."
+    ]
+  },
+  {
+    "keyword": "Authorization",
+    "weight": 0.95,
+    "synonyms": [
+      "access control",
+      "role based access control",
+      "rbac"
+    ],
+    "context_examples": [
+      "Implemented fine-grained authorization using role-based access control."
+    ]
+  },
+  {
+    "keyword": "OAuth2",
+    "weight": 0.95,
+    "synonyms": [
+      "oauth 2.0",
+      "authorization framework"
+    ],
+    "context_examples": [
+      "Integrated OAuth2 authentication for secure third-party application access."
+    ]
+  },
+  {
+    "keyword": "JWT",
+    "weight": 0.94,
+    "synonyms": [
+      "json web token",
+      "token authentication"
+    ],
+    "context_examples": [
+      "Secured REST APIs using JWT-based stateless authentication."
+    ]
+  },
+  {
+    "keyword": "OpenID Connect",
+    "weight": 0.9,
+    "synonyms": [
+      "oidc",
+      "openid"
+    ],
+    "context_examples": [
+      "Implemented single sign-on using OpenID Connect."
+    ]
+  },
+  {
+    "keyword": "CSRF Protection",
+    "weight": 0.92,
+    "synonyms": [
+      "cross site request forgery",
+      "csrf token"
+    ],
+    "context_examples": [
+      "Protected web applications against CSRF attacks using anti-forgery tokens."
+    ]
+  },
+  {
+    "keyword": "XSS Protection",
+    "weight": 0.93,
+    "synonyms": [
+      "cross site scripting",
+      "output encoding",
+      "input sanitization"
+    ],
+    "context_examples": [
+      "Prevented XSS attacks through proper input validation and output encoding."
+    ]
+  },
+  {
+    "keyword": "SQL Injection Prevention",
+    "weight": 0.95,
+    "synonyms": [
+      "prepared statements",
+      "parameterized queries"
+    ],
+    "context_examples": [
+      "Prevented SQL injection vulnerabilities using parameterized database queries."
+    ]
+  },
+  {
+    "keyword": "Content Security Policy",
+    "weight": 0.9,
+    "synonyms": [
+      "csp",
+      "browser security policy"
+    ],
+    "context_examples": [
+      "Configured Content Security Policy headers to mitigate client-side attacks."
+    ]
+  },
+  {
+    "keyword": "Encryption",
+    "weight": 0.95,
+    "synonyms": [
+      "cryptography",
+      "data encryption",
+      "aes"
+    ],
+    "context_examples": [
+      "Encrypted sensitive application data both at rest and in transit."
+    ]
+  },
+  {
+    "keyword": "TLS",
+    "weight": 0.94,
+    "synonyms": [
+      "transport layer security",
+      "ssl"
+    ],
+    "context_examples": [
+      "Configured TLS certificates for secure encrypted communication."
+    ]
+  },
+  {
+    "keyword": "HTTPS",
+    "weight": 0.92,
+    "synonyms": [
+      "secure http",
+      "tls web"
+    ],
+    "context_examples": [
+      "Enforced HTTPS across all production environments."
+    ]
+  },
+  {
+    "keyword": "Secrets Management",
+    "weight": 0.9,
+    "synonyms": [
+      "vault",
+      "secret manager",
+      "credential management"
+    ],
+    "context_examples": [
+      "Managed API keys and credentials securely using centralized secrets management."
+    ]
+  },
+  {
+    "keyword": "HashiCorp Vault",
+    "weight": 0.88,
+    "synonyms": [
+      "vault",
+      "hashicorp secrets"
+    ],
+    "context_examples": [
+      "Stored application secrets securely using HashiCorp Vault."
+    ]
+  },
+  {
+    "keyword": "IAM",
+    "weight": 0.91,
+    "synonyms": [
+      "identity and access management",
+      "least privilege"
+    ],
+    "context_examples": [
+      "Configured IAM roles and policies following least-privilege principles."
+    ]
+  },
+  {
+    "keyword": "Security Auditing",
+    "weight": 0.87,
+    "synonyms": [
+      "security assessment",
+      "audit logging",
+      "compliance audit"
+    ],
+    "context_examples": [
+      "Conducted periodic security audits and vulnerability assessments."
+    ]
+  },
+  {
+    "keyword": "Penetration Testing",
+    "weight": 0.88,
+    "synonyms": [
+      "pentesting",
+      "ethical hacking"
+    ],
+    "context_examples": [
+      "Performed penetration testing to identify exploitable vulnerabilities."
+    ]
+  },
+  {
+    "keyword": "Vulnerability Assessment",
+    "weight": 0.88,
+    "synonyms": [
+      "security scanning",
+      "vulnerability scanning"
+    ],
+    "context_examples": [
+      "Performed automated vulnerability assessments on production systems."
+    ]
+  },
+  {
+    "keyword": "Dependency Scanning",
+    "weight": 0.86,
+    "synonyms": [
+      "software composition analysis",
+      "sca"
+    ],
+    "context_examples": [
+      "Scanned project dependencies for known security vulnerabilities."
+    ]
+  },
+  {
+    "keyword": "Static Application Security Testing",
+    "weight": 0.86,
+    "synonyms": [
+      "sast",
+      "static security analysis"
+    ],
+    "context_examples": [
+      "Integrated SAST tools into CI/CD pipelines."
+    ]
+  },
+  {
+    "keyword": "Dynamic Application Security Testing",
+    "weight": 0.85,
+    "synonyms": [
+      "dast",
+      "dynamic security analysis"
+    ],
+    "context_examples": [
+      "Executed DAST scans before production deployment."
+    ]
+  },
+  {
+    "keyword": "Zero Trust Security",
+    "weight": 0.9,
+    "synonyms": [
+      "zero trust architecture",
+      "zta"
+    ],
+    "context_examples": [
+      "Implemented Zero Trust security principles across cloud infrastructure."
+    ]
+  },
+  {
+    "keyword": "Security Monitoring",
+    "weight": 0.88,
+    "synonyms": [
+      "security logging",
+      "siem",
+      "threat monitoring"
+    ],
+    "context_examples": [
+      "Configured continuous security monitoring and alerting for production systems."
+    ]
+  }
+]

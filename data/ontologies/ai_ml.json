@@ -1,0 +1,2312 @@
+[
+  {
+    "keyword": "Active Inference",
+    "weight": 0.74,
+    "synonyms": [
+      "bayesian active inference",
+      "predictive coding"
+    ],
+    "context_examples": [
+      "Explored active inference frameworks for decision-making",
+      "Applied predictive coding concepts to perception models"
+    ]
+  },
+  {
+    "keyword": "Active Learning",
+    "weight": 0.8,
+    "synonyms": [
+      "query strategy",
+      "uncertainty sampling",
+      "human-in-the-loop"
+    ],
+    "context_examples": [
+      "Implemented uncertainty sampling to reduce labeling cost",
+      "Built human-in-the-loop pipelines for difficult examples"
+    ]
+  },
+  {
+    "keyword": "Active Monitoring",
+    "weight": 0.78,
+    "synonyms": [
+      "real-time monitoring",
+      "alerting",
+      "ops monitoring"
+    ],
+    "context_examples": [
+      "Set up alerts for model performance degradation",
+      "Instrumented inference services with health checks"
+    ]
+  },
+  {
+    "keyword": "Adversarial Machine Learning",
+    "weight": 0.8,
+    "synonyms": [
+      "adversarial attacks",
+      "robustness testing",
+      "fgsm"
+    ],
+    "context_examples": [
+      "Evaluated model robustness against adversarial perturbations",
+      "Implemented adversarial training to harden models"
+    ]
+  },
+  {
+    "keyword": "Adversarial Robustness",
+    "weight": 0.79,
+    "synonyms": [
+      "robust training",
+      "certified robustness"
+    ],
+    "context_examples": [
+      "Measured certified robustness bounds for image classifiers",
+      "Applied randomized smoothing for robustness guarantees"
+    ]
+  },
+  {
+    "keyword": "API Serving",
+    "weight": 0.82,
+    "synonyms": [
+      "model serving",
+      "inference API",
+      "REST/gRPC serving"
+    ],
+    "context_examples": [
+      "Built REST APIs to serve model predictions",
+      "Implemented gRPC endpoints for low-latency inference"
+    ]
+  },
+  {
+    "keyword": "BERT",
+    "weight": 0.85,
+    "synonyms": [
+      "roberta",
+      "albert",
+      "distilbert"
+    ],
+    "context_examples": [
+      "Fine-tuned BERT embeddings for named entity recognition"
+    ]
+  },
+  {
+    "keyword": "Boosting",
+    "weight": 0.8,
+    "synonyms": [
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "context_examples": [
+      "Trained LightGBM models for tabular prediction",
+      "Tuned boosting hyperparameters for recall improvements"
+    ]
+  },
+  {
+    "keyword": "Byte Pair Encoding",
+    "weight": 0.78,
+    "synonyms": [
+      "BPE",
+      "subword BPE"
+    ],
+    "context_examples": [
+      "Trained BPE vocabularies for multilingual models",
+      "Used BPE to reduce OOV rates in tokenization"
+    ]
+  },
+  {
+    "keyword": "Calibration Metrics",
+    "weight": 0.76,
+    "synonyms": [
+      "ECE",
+      "Brier score",
+      "reliability"
+    ],
+    "context_examples": [
+      "Computed ECE and Brier scores to evaluate calibration",
+      "Used calibration metrics to compare model confidence"
+    ]
+  },
+  {
+    "keyword": "Python",
+    "weight": 0.99,
+    "synonyms": [
+      "Python 3",
+      "Python programming",
+      "NumPy",
+      "Pandas",
+      "SciPy"
+    ],
+    "context_examples": [
+      "Developed scalable data science and machine learning solutions using Python."
+    ]
+  },
+  {
+    "keyword": "Chain of Thought",
+    "weight": 0.84,
+    "synonyms": [
+      "cot",
+      "reasoning traces",
+      "step-by-step prompting"
+    ],
+    "context_examples": [
+      "Designed chain-of-thought prompts to improve multi-step reasoning",
+      "Evaluated reasoning traces for correctness and hallucination"
+    ]
+  },
+  {
+    "keyword": "Checkpointing",
+    "weight": 0.78,
+    "synonyms": [
+      "model checkpoints",
+      "save/restore",
+      "snapshotting"
+    ],
+    "context_examples": [
+      "Saved periodic checkpoints for long-running training jobs",
+      "Implemented resumable training with checkpoint restore"
+    ]
+  },
+  {
+    "keyword": "Computer Vision",
+    "weight": 0.85,
+    "synonyms": [
+      "cv",
+      "image processing",
+      "object detection",
+      "segmentation"
+    ],
+    "context_examples": [
+      "Developed object detection algorithms using OpenCV and YOLO"
+    ]
+  },
+  {
+    "keyword": "Contrastive Learning",
+    "weight": 0.88,
+    "synonyms": [
+      "simclr",
+      "contrastive loss",
+      "infoNCE"
+    ],
+    "context_examples": [
+      "Trained visual encoders with SimCLR contrastive objectives",
+      "Used contrastive loss for cross-modal retrieval"
+    ]
+  },
+  {
+    "keyword": "Cross Validation",
+    "weight": 0.8,
+    "synonyms": [
+      "k-fold",
+      "cv",
+      "stratified cv"
+    ],
+    "context_examples": [
+      "Performed stratified k-fold CV for robust evaluation",
+      "Used cross validation to estimate generalization error"
+    ]
+  },
+  {
+    "keyword": "CUDA",
+    "weight": 0.85,
+    "synonyms": [
+      "gpu acceleration",
+      "nvidia cuda"
+    ],
+    "context_examples": [
+      "Accelerated tensor computations using CUDA GPUs"
+    ]
+  },
+  {
+    "keyword": "Curriculum Learning",
+    "weight": 0.76,
+    "synonyms": [
+      "progressive training",
+      "difficulty scheduling"
+    ],
+    "context_examples": [
+      "Scheduled training examples from easy to hard to stabilize learning",
+      "Designed curricula for multi-stage model training"
+    ]
+  },
+  {
+    "keyword": "Data Drift Detection",
+    "weight": 0.8,
+    "synonyms": [
+      "concept drift",
+      "covariate shift",
+      "drift monitoring"
+    ],
+    "context_examples": [
+      "Monitored feature distributions to detect data drift",
+      "Triggered retraining pipelines on detected drift"
+    ]
+  },
+  {
+    "keyword": "Data Engineering",
+    "weight": 0.88,
+    "synonyms": [
+      "data pipelines",
+      "ETL",
+      "data wrangling"
+    ],
+    "context_examples": [
+      "Built scalable ETL pipelines for model training",
+      "Optimized data ingestion and validation workflows"
+    ]
+  },
+  {
+    "keyword": "Data Versioning",
+    "weight": 0.78,
+    "synonyms": [
+      "dataset versioning",
+      "DVC",
+      "data lineage"
+    ],
+    "context_examples": [
+      "Tracked dataset versions with DVC for reproducibility",
+      "Maintained lineage for training and validation splits"
+    ]
+  },
+  {
+    "keyword": "Deep Learning",
+    "weight": 0.95,
+    "synonyms": [
+      "dl",
+      "neural networks",
+      "deep neural networks"
+    ],
+    "context_examples": [
+      "Implemented deep learning pipelines for image classification"
+    ]
+  },
+  {
+    "keyword": "DeepSpeed",
+    "weight": 0.8,
+    "synonyms": [
+      "microsoft deepspeed",
+      "zero optimizer",
+      "ds"
+    ],
+    "context_examples": [
+      "Used DeepSpeed ZeRO to train billion-parameter models",
+      "Integrated DeepSpeed for memory-efficient training"
+    ]
+  },
+  {
+    "keyword": "Differential Privacy",
+    "weight": 0.82,
+    "synonyms": [
+      "DP-SGD",
+      "epsilon-delta privacy"
+    ],
+    "context_examples": [
+      "Trained models with DP-SGD to bound privacy leakage",
+      "Tuned privacy budgets for acceptable utility"
+    ]
+  },
+  {
+    "keyword": "Embeddings",
+    "weight": 0.9,
+    "synonyms": [
+      "vector embeddings",
+      "dense vectors",
+      "semantic vectors"
+    ],
+    "context_examples": [
+      "Generated sentence embeddings for semantic search",
+      "Compared embedding models for retrieval quality"
+    ]
+  },
+  {
+    "keyword": "Ensemble Methods",
+    "weight": 0.82,
+    "synonyms": [
+      "bagging",
+      "boosting",
+      "stacking"
+    ],
+    "context_examples": [
+      "Built ensembles to improve predictive performance",
+      "Combined models via stacking and weighted averaging"
+    ]
+  },
+  {
+    "keyword": "Experiment Tracking",
+    "weight": 0.82,
+    "synonyms": [
+      "run tracking",
+      "experiment logging",
+      "ml experiment"
+    ],
+    "context_examples": [
+      "Logged experiments and metrics with Weights & Biases",
+      "Compared runs to select best hyperparameters"
+    ]
+  },
+  {
+    "keyword": "Explainability Tools",
+    "weight": 0.8,
+    "synonyms": [
+      "SHAP",
+      "LIME",
+      "saliency maps"
+    ],
+    "context_examples": [
+      "Used SHAP to attribute feature importance",
+      "Generated saliency maps for CNN interpretability"
+    ]
+  },
+  {
+    "keyword": "Feature Store",
+    "weight": 0.8,
+    "synonyms": [
+      "feast",
+      "feature engineering pipeline"
+    ],
+    "context_examples": [
+      "Maintained real-time feature store for online model inference"
+    ]
+  },
+  {
+    "keyword": "FlashAttention",
+    "weight": 0.78,
+    "synonyms": [
+      "fast attention",
+      "efficient attention"
+    ],
+    "context_examples": [
+      "Applied FlashAttention to speed up transformer training",
+      "Measured throughput improvements with FlashAttention kernels"
+    ]
+  },
+  {
+    "keyword": "Gradient Accumulation",
+    "weight": 0.77,
+    "synonyms": [
+      "accumulated gradients",
+      "virtual batch"
+    ],
+    "context_examples": [
+      "Used gradient accumulation to simulate large batch sizes",
+      "Tuned accumulation steps to fit GPU memory constraints"
+    ]
+  },
+  {
+    "keyword": "Gradient Clipping",
+    "weight": 0.76,
+    "synonyms": [
+      "clip gradients",
+      "norm clipping"
+    ],
+    "context_examples": [
+      "Applied gradient clipping to stabilize training",
+      "Experimented with norm vs value clipping strategies"
+    ]
+  },
+  {
+    "keyword": "Hugging Face",
+    "weight": 0.9,
+    "synonyms": [
+      "transformers hub",
+      "hf",
+      "huggingface hub"
+    ],
+    "context_examples": [
+      "Published model checkpoints to Hugging Face Hub",
+      "Used Transformers library for rapid prototyping"
+    ]
+  },
+  {
+    "keyword": "Human-in-the-Loop",
+    "weight": 0.79,
+    "synonyms": [
+      "HITL",
+      "human review",
+      "annotator workflows"
+    ],
+    "context_examples": [
+      "Integrated human review for high-risk model outputs",
+      "Built annotation UIs for quality labeling"
+    ]
+  },
+  {
+    "keyword": "Hyperparameter Tuning",
+    "weight": 0.8,
+    "synonyms": [
+      "optuna",
+      "grid search",
+      "bayesian optimization"
+    ],
+    "context_examples": [
+      "Automated hyperparameter optimization with Optuna"
+    ]
+  },
+  {
+    "keyword": "Keras",
+    "weight": 0.8,
+    "synonyms": [
+      "tf.keras"
+    ],
+    "context_examples": [
+      "Prototyped convolutional neural networks in Keras"
+    ]
+  },
+  {
+    "keyword": "Knowledge Graphs",
+    "weight": 0.82,
+    "synonyms": [
+      "KG",
+      "semantic graph",
+      "triples"
+    ],
+    "context_examples": [
+      "Constructed knowledge graphs for entity linking",
+      "Queried KG triples to augment model context"
+    ]
+  },
+  {
+    "keyword": "Label Smoothing",
+    "weight": 0.75,
+    "synonyms": [
+      "soft labels",
+      "smoothing regularization"
+    ],
+    "context_examples": [
+      "Used label smoothing to reduce overconfidence",
+      "Measured calibration improvements after smoothing"
+    ]
+  },
+  {
+    "keyword": "LangChain",
+    "weight": 0.85,
+    "synonyms": [
+      "llamaindex",
+      "agentic workflows"
+    ],
+    "context_examples": [
+      "Developed AI agents using LangChain and vector databases"
+    ]
+  },
+  {
+    "keyword": "LLM",
+    "weight": 0.95,
+    "synonyms": [
+      "large language models",
+      "generative ai",
+      "genai",
+      "gpt"
+    ],
+    "context_examples": [
+      "Built generative AI applications leveraging large language models"
+    ]
+  },
+  {
+    "keyword": "Machine Learning",
+    "weight": 1.0,
+    "synonyms": [
+      "ml",
+      "statistical learning",
+      "predictive modeling"
+    ],
+    "context_examples": [
+      "Applied machine learning algorithms to predict customer churn"
+    ]
+  },
+  {
+    "keyword": "Meta Learning",
+    "weight": 0.82,
+    "synonyms": [
+      "learning to learn",
+      "MAML",
+      "few-shot meta"
+    ],
+    "context_examples": [
+      "Applied MAML for rapid adaptation to new tasks",
+      "Benchmarked meta-learning algorithms on few-shot benchmarks"
+    ]
+  },
+  {
+    "keyword": "Mixed Precision Training",
+    "weight": 0.84,
+    "synonyms": [
+      "fp16 training",
+      "bfloat16",
+      "amp"
+    ],
+    "context_examples": [
+      "Enabled AMP for faster training with FP16",
+      "Benchmarked BFloat16 vs FP16 for stability"
+    ]
+  },
+  {
+    "keyword": "MLflow",
+    "weight": 0.8,
+    "synonyms": [
+      "kubeflow",
+      "wandb",
+      "weights & biases"
+    ],
+    "context_examples": [
+      "Tracked hyperparameter tuning experiments using MLflow"
+    ]
+  },
+  {
+    "keyword": "MLOps",
+    "weight": 0.9,
+    "synonyms": [
+      "model deployment",
+      "model serving",
+      "ml pipelines"
+    ],
+    "context_examples": [
+      "Established automated MLOps pipelines for continuous model training and validation"
+    ]
+  },
+  {
+    "keyword": "Model Calibration",
+    "weight": 0.78,
+    "synonyms": [
+      "probability calibration",
+      "temperature scaling",
+      "isotonic regression"
+    ],
+    "context_examples": [
+      "Applied temperature scaling to calibrate predicted probabilities",
+      "Assessed calibration with reliability diagrams"
+    ]
+  },
+  {
+    "keyword": "Model Explainability",
+    "weight": 0.84,
+    "synonyms": [
+      "interpretability",
+      "transparent models"
+    ],
+    "context_examples": [
+      "Created interpretable surrogate models for black-box systems",
+      "Documented model decision logic for audits"
+    ]
+  },
+  {
+    "keyword": "Model Quantization",
+    "weight": 0.85,
+    "synonyms": [
+      "pruning",
+      "distillation",
+      "model optimization"
+    ],
+    "context_examples": [
+      "Applied 8-bit quantization to compress LLM memory footprint"
+    ]
+  },
+  {
+    "keyword": "Model Registry",
+    "weight": 0.8,
+    "synonyms": [
+      "model catalog",
+      "artifact registry",
+      "model store"
+    ],
+    "context_examples": [
+      "Registered production-ready models with versioned metadata",
+      "Automated model promotion from staging to production"
+    ]
+  },
+  {
+    "keyword": "Natural Language Processing",
+    "weight": 0.9,
+    "synonyms": [
+      "nlp",
+      "text processing",
+      "text mining"
+    ],
+    "context_examples": [
+      "Engineered NLP model for sentiment analysis using spaCy and Transformers"
+    ]
+  },
+  {
+    "keyword": "NumPy",
+    "weight": 0.8,
+    "synonyms": [
+      "numerical computing"
+    ],
+    "context_examples": [
+      "Optimized vector mathematical operations with NumPy"
+    ]
+  },
+  {
+    "keyword": "ONNX",
+    "weight": 0.82,
+    "synonyms": [
+      "open neural network exchange",
+      "onnx runtime"
+    ],
+    "context_examples": [
+      "Exported models to ONNX for cross-platform inference",
+      "Optimized ONNX graphs for edge deployment"
+    ]
+  },
+  {
+    "keyword": "Ontology Engineering",
+    "weight": 0.76,
+    "synonyms": [
+      "schema design",
+      "concept modeling"
+    ],
+    "context_examples": [
+      "Designed ontologies to standardize domain concepts",
+      "Mapped data sources to a shared ontology"
+    ]
+  },
+  {
+    "keyword": "OpenCV",
+    "weight": 0.8,
+    "synonyms": [
+      "image analysis"
+    ],
+    "context_examples": [
+      "Preprocessed video frames using OpenCV"
+    ]
+  },
+  {
+    "keyword": "Pandas",
+    "weight": 0.8,
+    "synonyms": [
+      "dataframes"
+    ],
+    "context_examples": [
+      "Cleaned and manipulated structured datasets using Pandas"
+    ]
+  },
+  {
+    "keyword": "Privacy Preserving ML",
+    "weight": 0.82,
+    "synonyms": [
+      "differential privacy",
+      "dp",
+      "secure ml"
+    ],
+    "context_examples": [
+      "Applied differential privacy to model updates",
+      "Used secure aggregation in federated learning"
+    ]
+  },
+  {
+    "keyword": "Prompt Tuning",
+    "weight": 0.82,
+    "synonyms": [
+      "soft prompts",
+      "prefix tuning",
+      "prompt adapters"
+    ],
+    "context_examples": [
+      "Optimized soft prompts to adapt LLMs to domain tasks",
+      "Used prefix tuning for parameter-efficient customization"
+    ]
+  },
+  {
+    "keyword": "Python",
+    "weight": 0.95,
+    "synonyms": [
+      "py",
+      "python3"
+    ],
+    "context_examples": [
+      "Engineered production ML pipelines in Python"
+    ]
+  },
+  {
+    "keyword": "PyTorch",
+    "weight": 0.95,
+    "synonyms": [
+      "torch",
+      "pytorch lightning"
+    ],
+    "context_examples": [
+      "Trained transformer architectures in PyTorch",
+      "Fine-tuned LLMs with PyTorch"
+    ]
+  },
+  {
+    "keyword": "RAG",
+    "weight": 0.9,
+    "synonyms": [
+      "retrieval augmented generation",
+      "vector search"
+    ],
+    "context_examples": [
+      "Implemented RAG architecture for semantic document QA"
+    ]
+  },
+  {
+    "keyword": "Reinforcement Learning",
+    "weight": 0.8,
+    "synonyms": [
+      "rl",
+      "q-learning",
+      "policy gradient"
+    ],
+    "context_examples": [
+      "Trained reinforcement learning agents for dynamic optimization"
+    ]
+  },
+  {
+    "keyword": "Representation Learning",
+    "weight": 0.85,
+    "synonyms": [
+      "feature learning",
+      "latent representations"
+    ],
+    "context_examples": [
+      "Learned compact embeddings for downstream classification",
+      "Evaluated representation quality with linear probes"
+    ]
+  },
+  {
+    "keyword": "Robustness Testing",
+    "weight": 0.78,
+    "synonyms": [
+      "stress testing",
+      "distribution shift tests"
+    ],
+    "context_examples": [
+      "Simulated distribution shifts to test model stability",
+      "Built test suites for edge-case robustness"
+    ]
+  },
+  {
+    "keyword": "Safety and Alignment",
+    "weight": 0.86,
+    "synonyms": [
+      "ai safety",
+      "alignment research",
+      "safe ai"
+    ],
+    "context_examples": [
+      "Designed guardrails to reduce harmful LLM outputs",
+      "Evaluated alignment strategies for deployed agents"
+    ]
+  },
+  {
+    "keyword": "Scikit-Learn",
+    "weight": 0.85,
+    "synonyms": [
+      "sklearn"
+    ],
+    "context_examples": [
+      "Trained random forests and gradient boosted trees using Scikit-Learn"
+    ]
+  },
+  {
+    "keyword": "Sequence-to-Sequence",
+    "weight": 0.86,
+    "synonyms": [
+      "seq2seq",
+      "encoder-decoder",
+      "translation models"
+    ],
+    "context_examples": [
+      "Implemented seq2seq models for machine translation",
+      "Fine-tuned encoder-decoder transformers for summarization"
+    ]
+  },
+  {
+    "keyword": "Serverless Inference",
+    "weight": 0.77,
+    "synonyms": [
+      "on-demand inference",
+      "serverless ml"
+    ],
+    "context_examples": [
+      "Deployed serverless endpoints for cost-efficient inference",
+      "Scaled inference with autoscaling serverless functions"
+    ]
+  },
+  {
+    "keyword": "spaCy",
+    "weight": 0.8,
+    "synonyms": [
+      "nltk"
+    ],
+    "context_examples": [
+      "Built custom NER pipelines using spaCy"
+    ]
+  },
+  {
+    "keyword": "TensorFlow",
+    "weight": 0.9,
+    "synonyms": [
+      "tf",
+      "tensorflow 2.0",
+      "tf2"
+    ],
+    "context_examples": [
+      "Built deep learning models using TensorFlow",
+      "Trained neural networks with TensorFlow"
+    ]
+  },
+  {
+    "keyword": "Text-to-Speech",
+    "weight": 0.8,
+    "synonyms": [
+      "TTS",
+      "speech synthesis",
+      "neural TTS"
+    ],
+    "context_examples": [
+      "Built TTS pipelines using Tacotron and WaveNet",
+      "Deployed real-time TTS for accessibility features"
+    ]
+  },
+  {
+    "keyword": "Tokenization",
+    "weight": 0.82,
+    "synonyms": [
+      "tokeniser",
+      "subword segmentation",
+      "text tokenization"
+    ],
+    "context_examples": [
+      "Implemented custom tokenizers for domain-specific vocabularies",
+      "Analyzed tokenization effects on model input length"
+    ]
+  },
+  {
+    "keyword": "Transformers",
+    "weight": 0.9,
+    "synonyms": [
+      "huggingface",
+      "attention mechanism",
+      "encoder-decoder"
+    ],
+    "context_examples": [
+      "Fine-tuned transformer models for text summarization"
+    ]
+  },
+  {
+    "keyword": "Triton",
+    "weight": 0.8,
+    "synonyms": [
+      "torchscript",
+      "onnx",
+      "tensorrt"
+    ],
+    "context_examples": [
+      "Optimized model inference latency using ONNX Runtime and TensorRT"
+    ]
+  },
+  {
+    "keyword": "Vector Databases",
+    "weight": 0.85,
+    "synonyms": [
+      "pinecone",
+      "chromadb",
+      "weaviate",
+      "qdrant",
+      "faiss"
+    ],
+    "context_examples": [
+      "Indexed embeddings into Pinecone for low-latency similarity search"
+    ]
+  },
+  {
+    "keyword": "WordPiece",
+    "weight": 0.78,
+    "synonyms": [
+      "word piece",
+      "wp tokenization"
+    ],
+    "context_examples": [
+      "Built WordPiece vocabularies for transformer pretraining",
+      "Compared WordPiece and BPE tokenization strategies"
+    ]
+  },
+  {
+    "keyword": "Tokenization",
+    "weight": 0.95,
+    "synonyms": [
+      "wordpiece",
+      "bpe",
+      "byte pair encoding",
+      "sentencepiece",
+      "subword tokenization",
+      "tokenizer"
+    ],
+    "context_examples": [
+      "Implemented subword tokenization using WordPiece and SentencePiece for transformer models."
+    ]
+  },
+  {
+    "keyword": "Embeddings",
+    "weight": 0.95,
+    "synonyms": [
+      "word2vec",
+      "glove",
+      "fasttext",
+      "contextual embeddings",
+      "embedding vectors",
+      "dense representations"
+    ],
+    "context_examples": [
+      "Generated semantic word embeddings using FastText and contextual transformer embeddings."
+    ]
+  },
+  {
+    "keyword": "Transformers",
+    "weight": 1.0,
+    "synonyms": [
+      "bert",
+      "roberta",
+      "gpt",
+      "t5",
+      "xlnet",
+      "distilbert",
+      "albert",
+      "transformer architecture"
+    ],
+    "context_examples": [
+      "Fine-tuned transformer models such as BERT and T5 for downstream NLP tasks."
+    ]
+  },
+  {
+    "keyword": "Sequence-to-Sequence Models",
+    "weight": 0.92,
+    "synonyms": [
+      "seq2seq",
+      "encoder decoder",
+      "encoder-decoder",
+      "sequence generation"
+    ],
+    "context_examples": [
+      "Built encoder-decoder architectures for translation and text generation."
+    ]
+  },
+  {
+    "keyword": "Attention Mechanisms",
+    "weight": 0.94,
+    "synonyms": [
+      "self attention",
+      "cross attention",
+      "multi head attention",
+      "scaled dot product attention"
+    ],
+    "context_examples": [
+      "Applied multi-head self-attention to improve contextual understanding."
+    ]
+  },
+  {
+    "keyword": "Language Modeling",
+    "weight": 0.95,
+    "synonyms": [
+      "masked language model",
+      "masked lm",
+      "causal language model",
+      "causal lm",
+      "autoregressive model"
+    ],
+    "context_examples": [
+      "Pretrained masked and causal language models for text understanding and generation."
+    ]
+  },
+  {
+    "keyword": "Text Classification",
+    "weight": 0.9,
+    "synonyms": [
+      "sentiment analysis",
+      "topic classification",
+      "document classification",
+      "intent classification"
+    ],
+    "context_examples": [
+      "Developed transformer-based text classification models for sentiment prediction."
+    ]
+  },
+  {
+    "keyword": "Named Entity Recognition",
+    "weight": 0.9,
+    "synonyms": [
+      "ner",
+      "entity extraction",
+      "entity recognition"
+    ],
+    "context_examples": [
+      "Extracted organizations, people, and locations using BERT-based NER models."
+    ]
+  },
+  {
+    "keyword": "Part-of-Speech Tagging",
+    "weight": 0.85,
+    "synonyms": [
+      "pos tagging",
+      "part of speech",
+      "grammatical tagging"
+    ],
+    "context_examples": [
+      "Implemented POS tagging pipelines for linguistic feature extraction."
+    ]
+  },
+  {
+    "keyword": "Dependency Parsing",
+    "weight": 0.84,
+    "synonyms": [
+      "syntactic parsing",
+      "dependency tree",
+      "dependency parser"
+    ],
+    "context_examples": [
+      "Used dependency parsing to analyze grammatical relationships between words."
+    ]
+  },
+  {
+    "keyword": "Coreference Resolution",
+    "weight": 0.84,
+    "synonyms": [
+      "coreference",
+      "entity linking",
+      "reference resolution"
+    ],
+    "context_examples": [
+      "Resolved entity references across long documents using neural coreference models."
+    ]
+  },
+  {
+    "keyword": "Text Summarization",
+    "weight": 0.9,
+    "synonyms": [
+      "extractive summarization",
+      "abstractive summarization",
+      "document summarization"
+    ],
+    "context_examples": [
+      "Generated abstractive summaries using transformer encoder-decoder models."
+    ]
+  },
+  {
+    "keyword": "Question Answering",
+    "weight": 0.9,
+    "synonyms": [
+      "qa",
+      "reading comprehension",
+      "extractive qa",
+      "generative qa"
+    ],
+    "context_examples": [
+      "Fine-tuned QA models for domain-specific question answering."
+    ]
+  },
+  {
+    "keyword": "Dialogue Systems",
+    "weight": 0.88,
+    "synonyms": [
+      "chatbots",
+      "conversational ai",
+      "dialogue management",
+      "virtual assistant"
+    ],
+    "context_examples": [
+      "Built conversational AI systems using transformer-based dialogue models."
+    ]
+  },
+  {
+    "keyword": "Machine Translation",
+    "weight": 0.88,
+    "synonyms": [
+      "mt",
+      "neural machine translation",
+      "translation models"
+    ],
+    "context_examples": [
+      "Implemented multilingual neural machine translation using Transformer architectures."
+    ]
+  },
+  {
+    "keyword": "Speech Recognition",
+    "weight": 0.88,
+    "synonyms": [
+      "asr",
+      "automatic speech recognition",
+      "speech to text"
+    ],
+    "context_examples": [
+      "Built ASR pipelines to convert speech into accurate text transcripts."
+    ]
+  },
+  {
+    "keyword": "Text-to-Speech",
+    "weight": 0.86,
+    "synonyms": [
+      "tts",
+      "speech synthesis",
+      "voice generation"
+    ],
+    "context_examples": [
+      "Developed neural text-to-speech systems for natural voice synthesis."
+    ]
+  },
+  {
+    "keyword": "Information Retrieval",
+    "weight": 0.9,
+    "synonyms": [
+      "ir",
+      "document retrieval",
+      "search systems",
+      "ranking"
+    ],
+    "context_examples": [
+      "Designed information retrieval pipelines with BM25 and dense retrieval."
+    ]
+  },
+  {
+    "keyword": "Semantic Search",
+    "weight": 0.92,
+    "synonyms": [
+      "dense retrieval",
+      "vector search",
+      "embedding search",
+      "similarity search"
+    ],
+    "context_examples": [
+      "Implemented semantic search using transformer embeddings and vector databases."
+    ]
+  },
+  {
+    "keyword": "Retrieval-Augmented Generation",
+    "weight": 1.0,
+    "synonyms": [
+      "rag",
+      "retrieval augmented generation",
+      "retrieval generation"
+    ],
+    "context_examples": [
+      "Built RAG pipelines combining vector search with large language models."
+    ]
+  },
+  {
+    "keyword": "Prompt Engineering",
+    "weight": 0.95,
+    "synonyms": [
+      "prompt tuning",
+      "instruction prompting",
+      "prompt optimization",
+      "chain of thought prompting"
+    ],
+    "context_examples": [
+      "Designed prompts and prompt tuning strategies to improve LLM performance."
+    ]
+  },
+  {
+    "keyword": "Few-shot Learning",
+    "weight": 0.9,
+    "synonyms": [
+      "few shot",
+      "zero shot",
+      "one shot learning",
+      "in context learning"
+    ],
+    "context_examples": [
+      "Leveraged few-shot and zero-shot prompting for downstream NLP tasks."
+    ]
+  },
+  {
+    "keyword": "Fine-tuning",
+    "weight": 0.95,
+    "synonyms": [
+      "lora",
+      "peft",
+      "parameter efficient fine tuning",
+      "instruction tuning",
+      "adapter tuning"
+    ],
+    "context_examples": [
+      "Fine-tuned large language models efficiently using LoRA and PEFT."
+    ]
+  },
+  {
+    "keyword": "Knowledge Graphs",
+    "weight": 0.86,
+    "synonyms": [
+      "knowledge graph",
+      "ontology",
+      "semantic web",
+      "rdf",
+      "owl"
+    ],
+    "context_examples": [
+      "Integrated knowledge graphs and ontologies for enhanced reasoning."
+    ]
+  },
+  {
+    "keyword": "Text Mining",
+    "weight": 0.86,
+    "synonyms": [
+      "information extraction",
+      "text analytics",
+      "entity extraction",
+      "relation extraction"
+    ],
+    "context_examples": [
+      "Extracted structured insights from unstructured documents using NLP pipelines."
+    ]
+  },
+  {
+    "keyword": "Explainable NLP",
+    "weight": 0.84,
+    "synonyms": [
+      "shap",
+      "lime",
+      "model interpretability",
+      "explainable ai",
+      "xai"
+    ],
+    "context_examples": [
+      "Applied SHAP and LIME to explain predictions of transformer-based NLP models."
+    ]
+  },
+  {
+    "keyword": "Image Classification",
+    "weight": 0.95,
+    "synonyms": [
+      "image recognition",
+      "image categorization",
+      "classification model",
+      "vision classification"
+    ],
+    "context_examples": [
+      "Developed CNN and Vision Transformer models for large-scale image classification."
+    ]
+  },
+  {
+    "keyword": "Object Detection",
+    "weight": 1.0,
+    "synonyms": [
+      "yolo",
+      "faster r-cnn",
+      "ssd",
+      "retinanet",
+      "bounding box detection"
+    ],
+    "context_examples": [
+      "Built real-time object detection systems using YOLOv8 and Faster R-CNN."
+    ]
+  },
+  {
+    "keyword": "Semantic Segmentation",
+    "weight": 0.95,
+    "synonyms": [
+      "u-net",
+      "deeplab",
+      "pixel segmentation",
+      "semantic labeling"
+    ],
+    "context_examples": [
+      "Performed pixel-level semantic segmentation using U-Net and DeepLabV3+."
+    ]
+  },
+  {
+    "keyword": "Instance Segmentation",
+    "weight": 0.92,
+    "synonyms": [
+      "mask r-cnn",
+      "object masks",
+      "instance labeling"
+    ],
+    "context_examples": [
+      "Implemented Mask R-CNN to detect and segment multiple object instances."
+    ]
+  },
+  {
+    "keyword": "Image Captioning",
+    "weight": 0.90,
+    "synonyms": [
+      "visual captioning",
+      "caption generation",
+      "vision-language model"
+    ],
+    "context_examples": [
+      "Generated natural language descriptions from images using encoder-decoder architectures."
+    ]
+  },
+  {
+    "keyword": "Optical Character Recognition",
+    "weight": 0.90,
+    "synonyms": [
+      "ocr",
+      "text recognition",
+      "document digitization",
+      "scene text recognition"
+    ],
+    "context_examples": [
+      "Built OCR pipelines for extracting structured information from scanned documents."
+    ]
+  },
+  {
+    "keyword": "Face Recognition",
+    "weight": 0.90,
+    "synonyms": [
+      "face detection",
+      "facial recognition",
+      "facial verification",
+      "face embeddings"
+    ],
+    "context_examples": [
+      "Developed deep learning models for face detection and biometric verification."
+    ]
+  },
+  {
+    "keyword": "Pose Estimation",
+    "weight": 0.90,
+    "synonyms": [
+      "openpose",
+      "mediapipe",
+      "human pose estimation",
+      "keypoint detection"
+    ],
+    "context_examples": [
+      "Estimated human body keypoints using OpenPose and MediaPipe frameworks."
+    ]
+  },
+  {
+    "keyword": "Image Generation",
+    "weight": 1.0,
+    "synonyms": [
+      "gans",
+      "generative adversarial networks",
+      "diffusion models",
+      "stable diffusion",
+      "image synthesis"
+    ],
+    "context_examples": [
+      "Generated realistic synthetic images using GANs and Stable Diffusion models."
+    ]
+  },
+  {
+    "keyword": "Image Super-Resolution",
+    "weight": 0.88,
+    "synonyms": [
+      "srgan",
+      "esrgan",
+      "image upscaling",
+      "super resolution"
+    ],
+    "context_examples": [
+      "Enhanced low-resolution images using ESRGAN and transformer-based super-resolution models."
+    ]
+  },
+  {
+    "keyword": "Image Denoising",
+    "weight": 0.86,
+    "synonyms": [
+      "image restoration",
+      "noise removal",
+      "deblurring",
+      "image enhancement"
+    ],
+    "context_examples": [
+      "Applied deep neural networks for image denoising and restoration tasks."
+    ]
+  },
+  {
+    "keyword": "Video Analysis",
+    "weight": 0.90,
+    "synonyms": [
+      "action recognition",
+      "video captioning",
+      "video understanding",
+      "video analytics"
+    ],
+    "context_examples": [
+      "Developed video analysis models for action recognition and automated caption generation."
+    ]
+  },
+  {
+    "keyword": "3D Vision",
+    "weight": 0.90,
+    "synonyms": [
+      "point clouds",
+      "depth estimation",
+      "nerf",
+      "3d reconstruction",
+      "stereo vision"
+    ],
+    "context_examples": [
+      "Implemented NeRF and depth estimation models for 3D scene reconstruction."
+    ]
+  },
+  {
+    "keyword": "Multimodal Models",
+    "weight": 1.0,
+    "synonyms": [
+      "clip",
+      "flamingo",
+      "blip",
+      "kosmos",
+      "vision language models",
+      "vlm"
+    ],
+    "context_examples": [
+      "Developed multimodal AI systems combining vision and language using CLIP and BLIP."
+    ]
+  },
+  {
+    "keyword": "Self-Supervised Computer Vision",
+    "weight": 0.92,
+    "synonyms": [
+      "simclr",
+      "byol",
+      "moco",
+      "contrastive learning",
+      "ssl vision"
+    ],
+    "context_examples": [
+      "Pretrained visual representations using SimCLR and BYOL without labeled datasets."
+    ]
+  },
+  {
+    "keyword": "Transfer Learning",
+    "weight": 0.95,
+    "synonyms": [
+      "resnet",
+      "efficientnet",
+      "vision transformer",
+      "vit",
+      "pretrained models"
+    ],
+    "context_examples": [
+      "Fine-tuned pretrained ResNet and Vision Transformer models for custom image datasets."
+    ]
+  },
+  {
+    "keyword": "Medical Imaging AI",
+    "weight": 0.90,
+    "synonyms": [
+      "radiology ai",
+      "pathology imaging",
+      "medical computer vision",
+      "healthcare imaging"
+    ],
+    "context_examples": [
+      "Built deep learning models for disease detection from radiology and pathology images."
+    ]
+  },
+  {
+    "keyword": "Edge Vision AI",
+    "weight": 0.88,
+    "synonyms": [
+      "tinyml",
+      "mobilenet",
+      "quantized models",
+      "embedded vision",
+      "edge inference"
+    ],
+    "context_examples": [
+      "Optimized MobileNet models with quantization for real-time edge AI deployment."
+    ]
+  },
+  {
+    "keyword": "Explainable Computer Vision",
+    "weight": 0.86,
+    "synonyms": [
+      "grad-cam",
+      "saliency maps",
+      "cam",
+      "xai vision",
+      "visual explainability"
+    ],
+    "context_examples": [
+      "Used Grad-CAM and saliency maps to interpret CNN and Vision Transformer predictions."
+    ]
+  },
+  {
+    "keyword": "RAG Architecture",
+    "weight": 1.0,
+    "synonyms": [
+      "retrieval augmented generation",
+      "retrieval-augmented generation",
+      "rag pipeline",
+      "retrieval pipeline",
+      "knowledge augmented generation"
+    ],
+    "context_examples": [
+      "Designed end-to-end RAG architectures integrating retrieval pipelines with large language models."
+    ]
+  },
+  {
+    "keyword": "Vector Databases",
+    "weight": 1.0,
+    "synonyms": [
+      "faiss",
+      "pinecone",
+      "weaviate",
+      "chroma",
+      "chromadb",
+      "qdrant",
+      "milvus",
+      "vector store"
+    ],
+    "context_examples": [
+      "Built semantic search applications using FAISS, Pinecone, and Chroma vector databases."
+    ]
+  },
+  {
+    "keyword": "Embedding Models",
+    "weight": 0.98,
+    "synonyms": [
+      "sentence transformers",
+      "sentence-transformers",
+      "openai embeddings",
+      "huggingface embeddings",
+      "bge embeddings",
+      "e5 embeddings",
+      "text embeddings"
+    ],
+    "context_examples": [
+      "Generated dense semantic embeddings using Sentence Transformers and OpenAI embedding models."
+    ]
+  },
+  {
+    "keyword": "Document Chunking",
+    "weight": 0.92,
+    "synonyms": [
+      "text chunking",
+      "sliding window",
+      "chunk overlap",
+      "recursive chunking",
+      "semantic chunking"
+    ],
+    "context_examples": [
+      "Optimized retrieval quality using recursive text splitting and overlap-based chunking strategies."
+    ]
+  },
+  {
+    "keyword": "Semantic Search",
+    "weight": 0.95,
+    "synonyms": [
+      "vector search",
+      "embedding search",
+      "dense retrieval",
+      "similarity search",
+      "semantic retrieval"
+    ],
+    "context_examples": [
+      "Implemented semantic search using dense vector embeddings and nearest-neighbor retrieval."
+    ]
+  },
+  {
+    "keyword": "Context Window Management",
+    "weight": 0.9,
+    "synonyms": [
+      "context optimization",
+      "token budget",
+      "prompt context",
+      "context compression",
+      "long context"
+    ],
+    "context_examples": [
+      "Optimized prompt context windows to maximize retrieval relevance while minimizing token usage."
+    ]
+  },
+  {
+    "keyword": "Hybrid Search",
+    "weight": 0.95,
+    "synonyms": [
+      "dense retrieval",
+      "sparse retrieval",
+      "bm25 plus embeddings",
+      "hybrid retrieval"
+    ],
+    "context_examples": [
+      "Combined BM25 lexical search with dense vector retrieval for improved search accuracy."
+    ]
+  },
+  {
+    "keyword": "Indexing Strategies",
+    "weight": 0.92,
+    "synonyms": [
+      "hnsw",
+      "ivf",
+      "pq",
+      "ann indexing",
+      "approximate nearest neighbor",
+      "vector indexing"
+    ],
+    "context_examples": [
+      "Optimized large-scale vector retrieval using HNSW and IVF indexing techniques."
+    ]
+  },
+  {
+    "keyword": "Knowledge Base Integration",
+    "weight": 0.9,
+    "synonyms": [
+      "enterprise knowledge base",
+      "document repository",
+      "knowledge ingestion",
+      "knowledge management"
+    ],
+    "context_examples": [
+      "Integrated enterprise knowledge bases into RAG pipelines for domain-specific question answering."
+    ]
+  },
+  {
+    "keyword": "LangChain",
+    "weight": 0.98,
+    "synonyms": [
+      "langchain framework",
+      "chains",
+      "langchain agents",
+      "langgraph",
+      "agentic workflows"
+    ],
+    "context_examples": [
+      "Developed agentic RAG workflows using LangChain, LangGraph, and tool calling."
+    ]
+  },
+  {
+    "keyword": "LlamaIndex",
+    "weight": 0.95,
+    "synonyms": [
+      "gpt index",
+      "document indexing",
+      "retrieval framework",
+      "llama index"
+    ],
+    "context_examples": [
+      "Built document indexing and retrieval pipelines using LlamaIndex."
+    ]
+  },
+  {
+    "keyword": "Query Expansion",
+    "weight": 0.88,
+    "synonyms": [
+      "query reformulation",
+      "query rewriting",
+      "query enhancement",
+      "prompt expansion"
+    ],
+    "context_examples": [
+      "Improved retrieval accuracy through automatic query expansion and reformulation techniques."
+    ]
+  },
+  {
+    "keyword": "Context Re-ranking",
+    "weight": 0.92,
+    "synonyms": [
+      "reranking",
+      "cross encoder",
+      "bm25 reranking",
+      "embedding reranking",
+      "document reranking"
+    ],
+    "context_examples": [
+      "Improved retrieval precision using cross-encoder re-ranking over retrieved documents."
+    ]
+  },
+  {
+    "keyword": "RAG Evaluation",
+    "weight": 0.9,
+    "synonyms": [
+      "recall@k",
+      "mrr",
+      "ndcg",
+      "retrieval evaluation",
+      "ranking metrics"
+    ],
+    "context_examples": [
+      "Evaluated retrieval systems using Recall@K, MRR, and nDCG metrics."
+    ]
+  },
+  {
+    "keyword": "Hallucination Mitigation",
+    "weight": 0.95,
+    "synonyms": [
+      "grounding",
+      "citation generation",
+      "fact verification",
+      "truthfulness",
+      "faithfulness"
+    ],
+    "context_examples": [
+      "Reduced hallucinations through grounded retrieval, source citations, and answer verification."
+    ]
+  },
+  {
+    "keyword": "Caching and Memory",
+    "weight": 0.9,
+    "synonyms": [
+      "vector cache",
+      "semantic cache",
+      "session memory",
+      "conversation memory",
+      "retrieval cache"
+    ],
+    "context_examples": [
+      "Implemented semantic caching and session memory to reduce latency and API costs."
+    ]
+  },
+  {
+    "keyword": "Multi-modal RAG",
+    "weight": 0.95,
+    "synonyms": [
+      "multimodal retrieval",
+      "text image retrieval",
+      "vision rag",
+      "audio retrieval",
+      "cross-modal retrieval"
+    ],
+    "context_examples": [
+      "Built multimodal RAG systems combining text, images, and audio retrieval for intelligent assistants."
+    ]
+  }
+,
+
+  {
+    "keyword": "Large Language Models",
+    "weight": 1.0,
+    "synonyms": [
+      "llm",
+      "foundation models",
+      "generative ai"
+    ],
+    "context_examples": [
+      "Built applications powered by Large Language Models for enterprise use cases."
+    ]
+  },
+  {
+    "keyword": "Generative AI",
+    "weight": 1.0,
+    "synonyms": [
+      "genai",
+      "foundation ai",
+      "ai generation"
+    ],
+    "context_examples": [
+      "Developed Generative AI applications using modern LLMs."
+    ]
+  },
+  {
+    "keyword": "OpenAI API",
+    "weight": 0.95,
+    "synonyms": [
+      "gpt api",
+      "chatgpt api",
+      "openai sdk"
+    ],
+    "context_examples": [
+      "Integrated OpenAI APIs into production AI applications."
+    ]
+  },
+  {
+    "keyword": "Gemini API",
+    "weight": 0.94,
+    "synonyms": [
+      "google gemini",
+      "vertex ai gemini"
+    ],
+    "context_examples": [
+      "Built multimodal AI applications using Gemini API."
+    ]
+  },
+  {
+    "keyword": "Claude API",
+    "weight": 0.92,
+    "synonyms": [
+      "anthropic",
+      "claude models"
+    ],
+    "context_examples": [
+      "Integrated Claude models into enterprise AI workflows."
+    ]
+  },
+  {
+    "keyword": "Hugging Face",
+    "weight": 0.95,
+    "synonyms": [
+      "transformers",
+      "huggingface hub",
+      "datasets"
+    ],
+    "context_examples": [
+      "Downloaded, fine-tuned and deployed Hugging Face models."
+    ]
+  },
+  {
+    "keyword": "LangChain",
+    "weight": 0.95,
+    "synonyms": [
+      "chains",
+      "agents",
+      "langgraph"
+    ],
+    "context_examples": [
+      "Developed RAG pipelines and AI agents using LangChain."
+    ]
+  },
+  {
+    "keyword": "LlamaIndex",
+    "weight": 0.92,
+    "synonyms": [
+      "gpt index",
+      "document indexing"
+    ],
+    "context_examples": [
+      "Built document intelligence systems using LlamaIndex."
+    ]
+  },
+  {
+    "keyword": "Prompt Engineering",
+    "weight": 0.95,
+    "synonyms": [
+      "prompt design",
+      "instruction engineering",
+      "prompt optimization"
+    ],
+    "context_examples": [
+      "Designed optimized prompts for enterprise LLM applications."
+    ]
+  },
+  {
+    "keyword": "Prompt Tuning",
+    "weight": 0.90,
+    "synonyms": [
+      "soft prompts",
+      "prefix tuning"
+    ],
+    "context_examples": [
+      "Optimized model performance using prompt tuning."
+    ]
+  },
+  {
+    "keyword": "Retrieval-Augmented Generation",
+    "weight": 1.0,
+    "synonyms": [
+      "rag",
+      "retrieval generation"
+    ],
+    "context_examples": [
+      "Developed production-ready Retrieval-Augmented Generation systems."
+    ]
+  },
+  {
+    "keyword": "Vector Database",
+    "weight": 0.95,
+    "synonyms": [
+      "vector search",
+      "embedding database"
+    ],
+    "context_examples": [
+      "Implemented semantic retrieval using vector databases."
+    ]
+  },
+  {
+    "keyword": "FAISS",
+    "weight": 0.93,
+    "synonyms": [
+      "facebook faiss",
+      "similarity search"
+    ],
+    "context_examples": [
+      "Built high-speed semantic search using FAISS."
+    ]
+  },
+  {
+    "keyword": "Pinecone",
+    "weight": 0.90,
+    "synonyms": [
+      "pinecone vector db"
+    ],
+    "context_examples": [
+      "Stored embeddings in Pinecone for production RAG."
+    ]
+  },
+  {
+    "keyword": "ChromaDB",
+    "weight": 0.90,
+    "synonyms": [
+      "chroma",
+      "vector store"
+    ],
+    "context_examples": [
+      "Built local RAG applications using ChromaDB."
+    ]
+  },
+  {
+    "keyword": "Weaviate",
+    "weight": 0.88,
+    "synonyms": [
+      "vector database"
+    ],
+    "context_examples": [
+      "Implemented semantic retrieval using Weaviate."
+    ]
+  },
+  {
+    "keyword": "Qdrant",
+    "weight": 0.88,
+    "synonyms": [
+      "vector search engine"
+    ],
+    "context_examples": [
+      "Deployed scalable vector search using Qdrant."
+    ]
+  },
+  {
+    "keyword": "Sentence Transformers",
+    "weight": 0.92,
+    "synonyms": [
+      "sentence embeddings",
+      "sbbert"
+    ],
+    "context_examples": [
+      "Generated semantic embeddings using Sentence Transformers."
+    ]
+  },
+  {
+    "keyword": "Embeddings",
+    "weight": 0.95,
+    "synonyms": [
+      "vector embeddings",
+      "semantic embeddings"
+    ],
+    "context_examples": [
+      "Created dense embeddings for semantic retrieval."
+    ]
+  },
+  {
+    "keyword": "LoRA",
+    "weight": 0.90,
+    "synonyms": [
+      "low rank adaptation",
+      "parameter efficient finetuning"
+    ],
+    "context_examples": [
+      "Fine-tuned LLMs efficiently using LoRA."
+    ]
+  },
+  {
+    "keyword": "PEFT",
+    "weight": 0.90,
+    "synonyms": [
+      "parameter efficient fine tuning"
+    ],
+    "context_examples": [
+      "Applied PEFT techniques for efficient model adaptation."
+    ]
+  },
+  {
+    "keyword": "Fine-Tuning",
+    "weight": 0.95,
+    "synonyms": [
+      "instruction tuning",
+      "supervised finetuning"
+    ],
+    "context_examples": [
+      "Fine-tuned foundation models for domain-specific tasks."
+    ]
+  },
+  {
+    "keyword": "Inference Optimization",
+    "weight": 0.88,
+    "synonyms": [
+      "model serving",
+      "optimized inference"
+    ],
+    "context_examples": [
+      "Optimized LLM inference for production deployment."
+    ]
+  },
+  {
+    "keyword": "vLLM",
+    "weight": 0.88,
+    "synonyms": [
+      "paged attention",
+      "llm inference"
+    ],
+    "context_examples": [
+      "Served high-throughput LLM inference using vLLM."
+    ]
+  },
+  {
+    "keyword": "Ollama",
+    "weight": 0.88,
+    "synonyms": [
+      "local llm",
+      "ollama server"
+    ],
+    "context_examples": [
+      "Ran open-source LLMs locally using Ollama."
+    ]
+  },
+  {
+    "keyword": "TensorRT",
+    "weight": 0.86,
+    "synonyms": [
+      "gpu optimization",
+      "nvidia inference"
+    ],
+    "context_examples": [
+      "Optimized deep learning inference using TensorRT."
+    ]
+  },
+  {
+    "keyword": "Ray",
+    "weight": 0.85,
+    "synonyms": [
+      "ray tune",
+      "distributed ai"
+    ],
+    "context_examples": [
+      "Distributed large-scale ML workloads using Ray."
+    ]
+  },
+  {
+    "keyword": "MLflow",
+    "weight": 0.90,
+    "synonyms": [
+      "experiment tracking",
+      "model registry"
+    ],
+    "context_examples": [
+      "Tracked experiments and deployed models using MLflow."
+    ]
+  },
+  {
+    "keyword": "Weights & Biases",
+    "weight": 0.88,
+    "synonyms": [
+      "wandb",
+      "experiment tracking"
+    ],
+    "context_examples": [
+      "Tracked deep learning experiments with Weights & Biases."
+    ]
+  },
+  {
+    "keyword": "Kubeflow",
+    "weight": 0.86,
+    "synonyms": [
+      "ml pipelines",
+      "kubeflow pipelines"
+    ],
+    "context_examples": [
+      "Automated ML workflows using Kubeflow."
+    ]
+  },
+  {
+    "keyword": "Apache Airflow",
+    "weight": 0.88,
+    "synonyms": [
+      "workflow orchestration",
+      "scheduler"
+    ],
+    "context_examples": [
+      "Built automated ML workflows using Apache Airflow."
+    ]
+  },
+  {
+    "keyword": "DVC",
+    "weight": 0.86,
+    "synonyms": [
+      "data version control",
+      "model versioning"
+    ],
+    "context_examples": [
+      "Versioned datasets and models using DVC."
+    ]
+  },
+  {
+    "keyword": "Feast",
+    "weight": 0.85,
+    "synonyms": [
+      "feature store"
+    ],
+    "context_examples": [
+      "Served online features using Feast."
+    ]
+  },
+  {
+    "keyword": "BentoML",
+    "weight": 0.86,
+    "synonyms": [
+      "model serving",
+      "ai deployment"
+    ],
+    "context_examples": [
+      "Packaged and deployed AI models using BentoML."
+    ]
+  },
+  {
+    "keyword": "AI Agents",
+    "weight": 0.92,
+    "synonyms": [
+      "autonomous agents",
+      "llm agents",
+      "agentic ai"
+    ],
+    "context_examples": [
+      "Developed autonomous AI agents capable of multi-step reasoning."
+    ]
+  },
+  {
+    "keyword": "Agentic AI",
+    "weight": 0.92,
+    "synonyms": [
+      "multi-agent systems",
+      "tool calling"
+    ],
+    "context_examples": [
+      "Designed agentic workflows integrating tools and external APIs."
+    ]
+  },
+  {
+    "keyword": "Pandas",
+    "weight": 0.95,
+    "synonyms": [
+      "pandas dataframe",
+      "dataframe",
+      "data manipulation",
+      "data wrangling",
+      "tabular data"
+    ],
+    "context_examples": [
+      "Performed data cleaning, feature engineering, and exploratory analysis using Pandas."
+    ]
+  },
+  {
+    "keyword": "NumPy",
+    "weight": 0.95,
+    "synonyms": [
+      "numpy",
+      "ndarray",
+      "numerical computing",
+      "scientific computing",
+      "matrix operations"
+    ],
+    "context_examples": [
+      "Optimized numerical computations and matrix operations using NumPy."
+    ]
+  },
+  {
+    "keyword": "CSV Processing",
+    "weight": 0.85,
+    "synonyms": [
+      "csv files",
+      "comma separated values",
+      "data import",
+      "data export",
+      "file processing"
+    ],
+    "context_examples": [
+      "Processed large CSV datasets for analytics and machine learning pipelines."
+    ]
+  },
+  {
+    "keyword": "Natural Language Processing",
+    "weight": 0.98,
+    "synonyms": [
+      "nlp",
+      "text processing",
+      "language models",
+      "computational linguistics",
+      "text analytics"
+    ],
+    "context_examples": [
+      "Developed NLP pipelines for text classification, entity recognition, and semantic analysis."
+    ]
+  },
+  {
+    "keyword": "Generative AI",
+    "weight": 1.0,
+    "synonyms": [
+      "genai",
+      "generative artificial intelligence",
+      "foundation models",
+      "ai generation",
+      "content generation"
+    ],
+    "context_examples": [
+      "Built Generative AI applications using LLMs, RAG, and agentic workflows."
+    ]
+  },
+  {
+    "keyword": "Large Language Models",
+    "weight": 1.0,
+    "synonyms": [
+      "llm",
+      "foundation model",
+      "gpt",
+      "bert",
+      "transformer models"
+    ],
+    "context_examples": [
+      "Integrated Large Language Models for conversational AI, summarization, and code generation."
+    ]
+  },
+  {
+    "keyword": "Scikit-learn",
+    "weight": 0.95,
+    "synonyms": [
+      "sklearn",
+      "machine learning library",
+      "classification",
+      "regression",
+      "clustering"
+    ],
+    "context_examples": [
+      "Built classification, regression, and clustering models using Scikit-learn."
+    ]
+  },
+  {
+    "keyword": "Streamlit",
+    "weight": 0.90,
+    "synonyms": [
+      "streamlit app",
+      "interactive dashboard",
+      "data app",
+      "python web app",
+      "ml dashboard"
+    ],
+    "context_examples": [
+      "Developed interactive AI dashboards and ML applications using Streamlit."
+    ]
+  },
+  {
+    "keyword": "FastAPI",
+    "weight": 0.95,
+    "synonyms": [
+      "fast api",
+      "python api",
+      "rest api",
+      "async api",
+      "backend api"
+    ],
+    "context_examples": [
+      "Built high-performance REST APIs for machine learning inference using FastAPI."
+    ]
+  },
+  {
+    "keyword": "LangChain",
+    "weight": 0.98,
+    "synonyms": [
+      "langchain framework",
+      "llm orchestration",
+      "rag framework",
+      "agent framework",
+      "chains"
+    ],
+    "context_examples": [
+      "Developed RAG systems and AI agents using LangChain."
+    ]
+  },
+  {
+    "keyword": "LangGraph",
+    "weight": 0.98,
+    "synonyms": [
+      "lang graph",
+      "agent workflows",
+      "multi-agent systems",
+      "state graph",
+      "graph orchestration"
+    ],
+    "context_examples": [
+      "Built stateful multi-agent AI workflows using LangGraph."
+    ]
+  }
+]

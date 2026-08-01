@@ -1,0 +1,2187 @@
+[
+  {
+    "keyword": "Data Cleaning",
+    "weight": 0.95,
+    "synonyms": [
+      "data wrangling",
+      "data preprocessing",
+      "data transformation",
+      "missing value handling",
+      "outlier treatment"
+    ],
+    "context_examples": [
+      "Cleaned, transformed, and validated raw datasets before model development."
+    ]
+  },
+  {
+    "keyword": "Data Ethics",
+    "weight": 0.84,
+    "synonyms": [
+      "responsible AI",
+      "AI ethics",
+      "fairness",
+      "bias mitigation",
+      "ethical AI"
+    ],
+    "context_examples": [
+      "Applied responsible AI principles to reduce algorithmic bias and improve fairness."
+    ]
+  },
+  {
+    "keyword": "Data Governance",
+    "weight": 0.84,
+    "synonyms": [
+      "data lineage",
+      "data stewardship",
+      "data compliance",
+      "metadata management",
+      "data policy"
+    ],
+    "context_examples": [
+      "Established governance policies for secure, compliant, and traceable data assets."
+    ]
+  },
+  {
+    "keyword": "Data Privacy",
+    "weight": 0.85,
+    "synonyms": [
+      "GDPR",
+      "CCPA",
+      "PII protection",
+      "data anonymization",
+      "privacy compliance"
+    ],
+    "context_examples": [
+      "Implemented privacy-preserving techniques to protect sensitive customer data."
+    ]
+  },
+  {
+    "keyword": "Data Profiling",
+    "weight": 0.84,
+    "synonyms": [
+      "data quality assessment",
+      "schema analysis",
+      "data inspection",
+      "quality checks"
+    ],
+    "context_examples": [
+      "Profiled datasets to identify inconsistencies, anomalies, and completeness issues."
+    ]
+  },
+  {
+    "keyword": "Data Science",
+    "weight": 1.00,
+    "synonyms": [
+      "data analytics",
+      "predictive analytics",
+      "data-driven decision making",
+      "analytical modeling"
+    ],
+    "context_examples": [
+      "Designed end-to-end data science solutions from data acquisition to model deployment."
+    ]
+  },
+  {
+    "keyword": "Data Visualization",
+    "weight": 0.90,
+    "synonyms": [
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "Tableau",
+      "Power BI",
+      "dashboarding"
+    ],
+    "context_examples": [
+      "Built interactive dashboards and visualizations to communicate analytical insights."
+    ]
+  },
+  {
+    "keyword": "Exploratory Data Analysis",
+    "weight": 0.95,
+    "synonyms": [
+      "EDA",
+      "data exploration",
+      "descriptive analytics",
+      "data inspection"
+    ],
+    "context_examples": [
+      "Performed exploratory data analysis to uncover trends, patterns, and anomalies."
+    ]
+  },
+  {
+    "keyword": "Feature Engineering",
+    "weight": 0.96,
+    "synonyms": [
+      "feature extraction",
+      "feature creation",
+      "feature encoding",
+      "feature transformation",
+      "feature selection"
+    ],
+    "context_examples": [
+      "Engineered high-quality predictive features to improve machine learning performance."
+    ]
+  },
+  {
+    "keyword": "Jupyter Notebook",
+    "weight": 0.86,
+    "synonyms": [
+      "JupyterLab",
+      "interactive notebooks",
+      "IPython Notebook"
+    ],
+    "context_examples": [
+      "Developed reproducible machine learning experiments using Jupyter Notebook."
+    ]
+  },
+  {
+    "keyword": "NumPy",
+    "weight": 0.92,
+    "synonyms": [
+      "numerical computing",
+      "array computing",
+      "matrix operations",
+      "scientific computing"
+    ],
+    "context_examples": [
+      "Performed efficient numerical computations using NumPy arrays and vectorized operations."
+    ]
+  },
+  {
+    "keyword": "Pandas",
+    "weight": 0.95,
+    "synonyms": [
+      "DataFrame",
+      "data manipulation",
+      "data analysis",
+      "tabular data processing"
+    ],
+    "context_examples": [
+      "Manipulated, transformed, and analyzed structured datasets using Pandas."
+    ]
+  },
+  {
+    "keyword": "Python",
+    "weight": 0.99,
+    "synonyms": [
+      "Python 3",
+      "Python programming",
+      "NumPy",
+      "Pandas",
+      "SciPy"
+    ],
+    "context_examples": [
+      "Developed scalable data science and machine learning solutions using Python."
+    ]
+  },
+  {
+    "keyword": "R Programming",
+    "weight": 0.82,
+    "synonyms": [
+      "R",
+      "RStudio",
+      "tidyverse",
+      "ggplot2",
+      "dplyr"
+    ],
+    "context_examples": [
+      "Performed statistical modeling and visualization using the R ecosystem."
+    ]
+  },
+  {
+    "keyword": "SQL",
+    "weight": 0.97,
+    "synonyms": [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "Microsoft SQL Server",
+      "Oracle SQL",
+      "ANSI SQL"
+    ],
+    "context_examples": [
+      "Wrote optimized SQL queries for large-scale analytical and reporting workloads."
+    ]
+  },
+  {
+    "keyword": "A/B Testing",
+    "weight": 0.92,
+    "synonyms": [
+      "experimentation",
+      "hypothesis testing",
+      "online experiments",
+      "controlled experiments"
+    ],
+    "context_examples": [
+      "Designed statistically valid A/B tests to evaluate product feature performance."
+    ]
+  },
+  {
+    "keyword": "Bayesian Methods",
+    "weight": 0.88,
+    "synonyms": [
+      "Bayesian inference",
+      "probabilistic modeling",
+      "Bayes theorem",
+      "MCMC"
+    ],
+    "context_examples": [
+      "Applied Bayesian inference to estimate uncertainty in predictive models."
+    ]
+  },
+  {
+    "keyword": "Bootstrap Sampling",
+    "weight": 0.82,
+    "synonyms": [
+      "bootstrap",
+      "resampling",
+      "sampling with replacement"
+    ],
+    "context_examples": [
+      "Estimated confidence intervals using bootstrap resampling techniques."
+    ]
+  },
+  {
+    "keyword": "Calculus",
+    "weight": 0.90,
+    "synonyms": [
+      "differential calculus",
+      "integral calculus",
+      "multivariable calculus"
+    ],
+    "context_examples": [
+      "Applied calculus concepts for optimization in machine learning algorithms."
+    ]
+  },
+  {
+    "keyword": "Causal Inference",
+    "weight": 0.88,
+    "synonyms": [
+      "treatment effect",
+      "counterfactual analysis",
+      "propensity score matching",
+      "instrumental variables"
+    ],
+    "context_examples": [
+      "Estimated causal effects using propensity score matching and observational data."
+    ]
+  },
+  {
+    "keyword": "Confidence Intervals",
+    "weight": 0.87,
+    "synonyms": [
+      "confidence bounds",
+      "interval estimation",
+      "statistical intervals"
+    ],
+    "context_examples": [
+      "Calculated confidence intervals to quantify uncertainty in experimental results."
+    ]
+  },
+  {
+    "keyword": "Descriptive Statistics",
+    "weight": 0.90,
+    "synonyms": [
+      "summary statistics",
+      "central tendency",
+      "dispersion measures"
+    ],
+    "context_examples": [
+      "Summarized datasets using descriptive statistical techniques."
+    ]
+  },
+  {
+    "keyword": "Hypothesis Testing",
+    "weight": 0.94,
+    "synonyms": [
+      "null hypothesis",
+      "alternative hypothesis",
+      "significance testing",
+      "statistical testing"
+    ],
+    "context_examples": [
+      "Performed hypothesis testing to validate business and model assumptions."
+    ]
+  },
+  {
+    "keyword": "Linear Algebra",
+    "weight": 0.92,
+    "synonyms": [
+      "matrix operations",
+      "vectors",
+      "eigenvalues",
+      "eigenvectors"
+    ],
+    "context_examples": [
+      "Applied matrix operations and vector algebra in machine learning pipelines."
+    ]
+  },
+  {
+    "keyword": "Mathematical Optimization",
+    "weight": 0.90,
+    "synonyms": [
+      "optimization",
+      "convex optimization",
+      "gradient optimization"
+    ],
+    "context_examples": [
+      "Optimized objective functions for machine learning model training."
+    ]
+  },
+  {
+    "keyword": "Monte Carlo Simulation",
+    "weight": 0.84,
+    "synonyms": [
+      "stochastic simulation",
+      "random sampling",
+      "probabilistic simulation"
+    ],
+    "context_examples": [
+      "Performed Monte Carlo simulations to model uncertainty and risk."
+    ]
+  },
+  {
+    "keyword": "Optimization Algorithms",
+    "weight": 0.90,
+    "synonyms": [
+      "gradient descent",
+      "stochastic gradient descent",
+      "Adam optimizer",
+      "RMSProp"
+    ],
+    "context_examples": [
+      "Optimized deep learning models using adaptive optimization algorithms."
+    ]
+  },
+  {
+    "keyword": "Probability Theory",
+    "weight": 0.95,
+    "synonyms": [
+      "probability distributions",
+      "random variables",
+      "conditional probability",
+      "Bayes theorem"
+    ],
+    "context_examples": [
+      "Applied probability theory to statistical modeling and predictive analytics."
+    ]
+  },
+  {
+    "keyword": "Statistical Inference",
+    "weight": 0.94,
+    "synonyms": [
+      "inferential statistics",
+      "parameter estimation",
+      "confidence estimation"
+    ],
+    "context_examples": [
+      "Performed statistical inference to draw conclusions from sampled datasets."
+    ]
+  },
+  {
+    "keyword": "Statistics",
+    "weight": 0.98,
+    "synonyms": [
+      "statistical analysis",
+      "applied statistics",
+      "mathematical statistics",
+      "probability and statistics"
+    ],
+    "context_examples": [
+      "Applied advanced statistical methods to solve real-world business problems."
+    ]
+ }
+,
+  {
+    "keyword": "ETL",
+    "weight": 0.92,
+    "synonyms": [
+      "extract transform load",
+      "etl pipelines",
+      "data integration"
+    ],
+    "context_examples": [
+      "Built automated ETL pipelines to ingest, transform, and validate enterprise data."
+    ]
+  },
+  {
+    "keyword": "ELT",
+    "weight": 0.90,
+    "synonyms": [
+      "extract load transform",
+      "modern data pipelines",
+      "cloud elt"
+    ],
+    "context_examples": [
+      "Implemented ELT workflows on cloud-native data warehouses."
+    ]
+  },
+  {
+    "keyword": "Apache Airflow",
+    "weight": 0.90,
+    "synonyms": [
+      "airflow",
+      "workflow orchestration",
+      "dag scheduling"
+    ],
+    "context_examples": [
+      "Orchestrated production data pipelines using Apache Airflow DAGs."
+    ]
+  },
+  {
+    "keyword": "dbt",
+    "weight": 0.86,
+    "synonyms": [
+      "data build tool",
+      "analytics engineering",
+      "sql transformations"
+    ],
+    "context_examples": [
+      "Developed modular SQL transformation pipelines using dbt."
+    ]
+  },
+  {
+    "keyword": "Luigi",
+    "weight": 0.78,
+    "synonyms": [
+      "workflow scheduler",
+      "pipeline orchestration"
+    ],
+    "context_examples": [
+      "Scheduled dependent ETL jobs with Luigi workflows."
+    ]
+  },
+  {
+    "keyword": "Apache Spark",
+    "weight": 0.94,
+    "synonyms": [
+      "spark",
+      "distributed computing",
+      "cluster computing"
+    ],
+    "context_examples": [
+      "Processed terabytes of structured and unstructured data using Apache Spark."
+    ]
+  },
+  {
+    "keyword": "PySpark",
+    "weight": 0.93,
+    "synonyms": [
+      "spark python",
+      "distributed dataframe"
+    ],
+    "context_examples": [
+      "Developed scalable ETL pipelines using PySpark DataFrames."
+    ]
+  },
+  {
+    "keyword": "Spark SQL",
+    "weight": 0.85,
+    "synonyms": [
+      "distributed sql",
+      "spark dataframe sql"
+    ],
+    "context_examples": [
+      "Optimized analytical queries using Spark SQL."
+    ]
+  },
+  {
+    "keyword": "Spark MLlib",
+    "weight": 0.84,
+    "synonyms": [
+      "distributed machine learning",
+      "spark ml"
+    ],
+    "context_examples": [
+      "Built distributed machine learning pipelines using Spark MLlib."
+    ]
+  },
+  {
+    "keyword": "Hadoop",
+    "weight": 0.82,
+    "synonyms": [
+      "hdfs",
+      "mapreduce",
+      "yarn"
+    ],
+    "context_examples": [
+      "Managed distributed storage and computation using Hadoop."
+    ]
+  },
+  {
+    "keyword": "Apache Kafka",
+    "weight": 0.92,
+    "synonyms": [
+      "kafka",
+      "event streaming",
+      "message broker"
+    ],
+    "context_examples": [
+      "Built real-time event streaming pipelines with Apache Kafka."
+    ]
+  },
+  {
+    "keyword": "Apache Flink",
+    "weight": 0.86,
+    "synonyms": [
+      "flink",
+      "stream processing",
+      "real-time analytics"
+    ],
+    "context_examples": [
+      "Implemented low-latency stream processing using Apache Flink."
+    ]
+  },
+  {
+    "keyword": "Streaming Data",
+    "weight": 0.90,
+    "synonyms": [
+      "real-time data",
+      "stream processing",
+      "event streams"
+    ],
+    "context_examples": [
+      "Designed streaming pipelines for near real-time analytics."
+    ]
+  },
+  {
+    "keyword": "Data Warehouse",
+    "weight": 0.90,
+    "synonyms": [
+      "analytics warehouse",
+      "enterprise warehouse",
+      "olap"
+    ],
+    "context_examples": [
+      "Designed enterprise data warehouse architectures for BI reporting."
+    ]
+  },
+  {
+    "keyword": "Snowflake",
+    "weight": 0.90,
+    "synonyms": [
+      "cloud warehouse",
+      "snowflake db"
+    ],
+    "context_examples": [
+      "Optimized analytical workloads on Snowflake."
+    ]
+  },
+  {
+    "keyword": "Google BigQuery",
+    "weight": 0.90,
+    "synonyms": [
+      "bigquery",
+      "gcp warehouse"
+    ],
+    "context_examples": [
+      "Performed petabyte-scale SQL analytics using BigQuery."
+    ]
+  },
+  {
+    "keyword": "Amazon Redshift",
+    "weight": 0.88,
+    "synonyms": [
+      "redshift",
+      "aws warehouse"
+    ],
+    "context_examples": [
+      "Built reporting solutions on Amazon Redshift."
+    ]
+  },
+  {
+    "keyword": "Data Lake",
+    "weight": 0.88,
+    "synonyms": [
+      "lakehouse",
+      "raw data storage",
+      "data repository"
+    ],
+    "context_examples": [
+      "Designed scalable data lake architectures for ML workloads."
+    ]
+  },
+  {
+    "keyword": "Delta Lake",
+    "weight": 0.86,
+    "synonyms": [
+      "delta tables",
+      "lakehouse architecture"
+    ],
+    "context_examples": [
+      "Implemented ACID-compliant storage using Delta Lake."
+    ]
+  },
+  {
+    "keyword": "Apache Iceberg",
+    "weight": 0.84,
+    "synonyms": [
+      "iceberg tables",
+      "open table format"
+    ],
+    "context_examples": [
+      "Managed large analytical datasets with Apache Iceberg."
+    ]
+  },
+  {
+    "keyword": "AWS Glue",
+    "weight": 0.86,
+    "synonyms": [
+      "glue",
+      "aws etl"
+    ],
+    "context_examples": [
+      "Automated cloud ETL pipelines using AWS Glue."
+    ]
+  },
+  {
+    "keyword": "Azure Data Factory",
+    "weight": 0.84,
+    "synonyms": [
+      "adf",
+      "azure etl"
+    ],
+    "context_examples": [
+      "Built enterprise integration pipelines using Azure Data Factory."
+    ]
+  },
+  {
+    "keyword": "Google Cloud Dataflow",
+    "weight": 0.84,
+    "synonyms": [
+      "dataflow",
+      "apache beam"
+    ],
+    "context_examples": [
+      "Developed scalable batch and streaming pipelines using Dataflow."
+    ]
+  },
+  {
+    "keyword": "Apache Beam",
+    "weight": 0.82,
+    "synonyms": [
+      "beam",
+      "portable pipelines"
+    ],
+    "context_examples": [
+      "Created unified batch and stream processing pipelines with Apache Beam."
+    ]
+  },
+  {
+    "keyword": "Data Versioning",
+    "weight": 0.84,
+    "synonyms": [
+      "dataset versioning",
+      "data lineage",
+      "reproducibility"
+    ],
+    "context_examples": [
+      "Versioned datasets to ensure reproducible ML experiments."
+    ]
+  },
+  {
+    "keyword": "DVC",
+    "weight": 0.84,
+    "synonyms": [
+      "data version control",
+      "dataset tracking"
+    ],
+    "context_examples": [
+      "Tracked datasets and ML models using DVC."
+    ]
+  },
+  {
+    "keyword": "Pachyderm",
+    "weight": 0.80,
+    "synonyms": [
+      "pipeline versioning",
+      "data pipeline version control"
+    ],
+    "context_examples": [
+      "Implemented reproducible ML workflows using Pachyderm."
+    ]
+  },
+  {
+    "keyword": "Data Lakehouse",
+    "weight": 0.86,
+    "synonyms": [
+      "lakehouse",
+      "modern data architecture"
+    ],
+    "context_examples": [
+      "Built Lakehouse architectures combining warehouse performance with data lake flexibility."
+    ]
+  },
+  {
+    "keyword": "MLOps",
+    "weight": 1.0,
+    "synonyms": [
+      "machine learning operations",
+      "production ml",
+      "ml lifecycle"
+    ],
+    "context_examples": [
+      "Built end-to-end MLOps pipelines for scalable model deployment and monitoring."
+    ]
+  },
+  {
+    "keyword": "Model Deployment",
+    "weight": 0.95,
+    "synonyms": [
+      "model serving",
+      "production deployment",
+      "deployment pipeline"
+    ],
+    "context_examples": [
+      "Deployed machine learning models to production environments."
+    ]
+  },
+  {
+    "keyword": "Model Serving",
+    "weight": 0.92,
+    "synonyms": [
+      "inference service",
+      "prediction api",
+      "online inference"
+    ],
+    "context_examples": [
+      "Served real-time predictions through scalable REST APIs."
+    ]
+  },
+  {
+    "keyword": "FastAPI",
+    "weight": 0.90,
+    "synonyms": [
+      "rest api",
+      "python api",
+      "asgi"
+    ],
+    "context_examples": [
+      "Built low-latency ML inference APIs using FastAPI."
+    ]
+  },
+  {
+    "keyword": "Flask",
+    "weight": 0.86,
+    "synonyms": [
+      "wsgi",
+      "python web framework"
+    ],
+    "context_examples": [
+      "Developed lightweight model-serving applications using Flask."
+    ]
+  },
+  {
+    "keyword": "Django",
+    "weight": 0.84,
+    "synonyms": [
+      "django rest framework",
+      "drf"
+    ],
+    "context_examples": [
+      "Integrated machine learning models into Django web applications."
+    ]
+  },
+  {
+    "keyword": "TorchServe",
+    "weight": 0.88,
+    "synonyms": [
+      "pytorch serving",
+      "torch model server"
+    ],
+    "context_examples": [
+      "Served PyTorch models using TorchServe."
+    ]
+  },
+  {
+    "keyword": "TensorFlow Serving",
+    "weight": 0.88,
+    "synonyms": [
+      "tf serving",
+      "tensorflow inference"
+    ],
+    "context_examples": [
+      "Deployed TensorFlow models using TensorFlow Serving."
+    ]
+  },
+  {
+    "keyword": "MLflow",
+    "weight": 0.93,
+    "synonyms": [
+      "experiment tracking",
+      "mlflow tracking",
+      "model registry"
+    ],
+    "context_examples": [
+      "Tracked experiments and registered production models with MLflow."
+    ]
+  },
+  {
+    "keyword": "Experiment Tracking",
+    "weight": 0.90,
+    "synonyms": [
+      "run tracking",
+      "experiment logging",
+      "metadata tracking"
+    ],
+    "context_examples": [
+      "Logged hyperparameters, metrics, and artifacts for reproducibility."
+    ]
+  },
+  {
+    "keyword": "Weights & Biases",
+    "weight": 0.88,
+    "synonyms": [
+      "wandb",
+      "experiment visualization"
+    ],
+    "context_examples": [
+      "Managed ML experiments using Weights & Biases."
+    ]
+  },
+  {
+    "keyword": "Neptune AI",
+    "weight": 0.82,
+    "synonyms": [
+      "neptune",
+      "ml metadata"
+    ],
+    "context_examples": [
+      "Tracked model experiments with Neptune AI."
+    ]
+  },
+  {
+    "keyword": "Model Registry",
+    "weight": 0.90,
+    "synonyms": [
+      "model versioning",
+      "registry",
+      "artifact registry"
+    ],
+    "context_examples": [
+      "Maintained production-ready model versions in a centralized registry."
+    ]
+  },
+  {
+    "keyword": "Feature Store",
+    "weight": 0.90,
+    "synonyms": [
+      "feature registry",
+      "online features",
+      "offline features"
+    ],
+    "context_examples": [
+      "Served consistent online and offline features through Feature Store."
+    ]
+  },
+  {
+    "keyword": "Feast",
+    "weight": 0.86,
+    "synonyms": [
+      "feature management",
+      "feature serving"
+    ],
+    "context_examples": [
+      "Implemented reusable ML features using Feast."
+    ]
+  },
+  {
+    "keyword": "Tecton",
+    "weight": 0.84,
+    "synonyms": [
+      "managed feature store"
+    ],
+    "context_examples": [
+      "Built scalable feature pipelines using Tecton."
+    ]
+  },
+  {
+    "keyword": "Model Monitoring",
+    "weight": 0.94,
+    "synonyms": [
+      "production monitoring",
+      "model observability"
+    ],
+    "context_examples": [
+      "Monitored deployed models for accuracy and stability."
+    ]
+  },
+  {
+    "keyword": "Data Drift",
+    "weight": 0.90,
+    "synonyms": [
+      "dataset drift",
+      "covariate shift"
+    ],
+    "context_examples": [
+      "Detected data drift using statistical monitoring."
+    ]
+  },
+  {
+    "keyword": "Concept Drift",
+    "weight": 0.88,
+    "synonyms": [
+      "target drift",
+      "prediction drift"
+    ],
+    "context_examples": [
+      "Monitored concept drift to trigger model retraining."
+    ]
+  },
+  {
+    "keyword": "Model Retraining",
+    "weight": 0.88,
+    "synonyms": [
+      "continuous training",
+      "automated retraining"
+    ],
+    "context_examples": [
+      "Automated retraining pipelines for production ML models."
+    ]
+  },
+  {
+    "keyword": "CI/CD for ML",
+    "weight": 0.92,
+    "synonyms": [
+      "ml pipelines",
+      "continuous deployment",
+      "github actions"
+    ],
+    "context_examples": [
+      "Automated ML deployment using CI/CD pipelines."
+    ]
+  },
+  {
+    "keyword": "Docker",
+    "weight": 0.92,
+    "synonyms": [
+      "containerization",
+      "docker compose"
+    ],
+    "context_examples": [
+      "Containerized ML applications using Docker."
+    ]
+  },
+  {
+    "keyword": "Kubernetes",
+    "weight": 0.92,
+    "synonyms": [
+      "k8s",
+      "container orchestration"
+    ],
+    "context_examples": [
+      "Scaled ML inference services with Kubernetes."
+    ]
+  },
+  {
+    "keyword": "Kubeflow",
+    "weight": 0.90,
+    "synonyms": [
+      "kubeflow pipelines",
+      "ml orchestration"
+    ],
+    "context_examples": [
+      "Built production ML workflows using Kubeflow."
+    ]
+  },
+  {
+    "keyword": "SageMaker",
+    "weight": 0.90,
+    "synonyms": [
+      "amazon sagemaker",
+      "aws ml"
+    ],
+    "context_examples": [
+      "Built and deployed ML models using Amazon SageMaker."
+    ]
+  },
+  {
+    "keyword": "Azure Machine Learning",
+    "weight": 0.88,
+    "synonyms": [
+      "azure ml",
+      "aml studio"
+    ],
+    "context_examples": [
+      "Managed enterprise ML workflows with Azure Machine Learning."
+    ]
+  },
+  {
+    "keyword": "Vertex AI",
+    "weight": 0.88,
+    "synonyms": [
+      "google vertex ai",
+      "gcp ai platform"
+    ],
+    "context_examples": [
+      "Developed scalable ML pipelines using Vertex AI."
+    ]
+  },
+  {
+    "keyword": "Model Compression",
+    "weight": 0.86,
+    "synonyms": [
+      "quantization",
+      "pruning",
+      "knowledge distillation"
+    ],
+    "context_examples": [
+      "Compressed deep learning models for faster inference."
+    ]
+  },
+  {
+    "keyword": "Explainable AI",
+    "weight": 0.90,
+    "synonyms": [
+      "xai",
+      "interpretable ai",
+      "model explainability"
+    ],
+    "context_examples": [
+      "Improved trust using Explainable AI techniques."
+    ]
+  },
+  {
+    "keyword": "SHAP",
+    "weight": 0.88,
+    "synonyms": [
+      "shap values",
+      "shapley explanations"
+    ],
+    "context_examples": [
+      "Explained feature importance using SHAP values."
+    ]
+  },
+  {
+    "keyword": "LIME",
+    "weight": 0.84,
+    "synonyms": [
+      "local interpretable model agnostic explanations"
+    ],
+    "context_examples": [
+      "Generated local explanations using LIME."
+    ]
+  },
+  {
+    "keyword": "Privacy Preserving ML",
+    "weight": 0.88,
+    "synonyms": [
+      "secure machine learning",
+      "privacy-aware ai"
+    ],
+    "context_examples": [
+      "Implemented privacy-preserving machine learning pipelines."
+    ]
+  },
+  {
+    "keyword": "Differential Privacy",
+    "weight": 0.86,
+    "synonyms": [
+      "dp",
+      "privacy budget"
+    ],
+    "context_examples": [
+      "Protected sensitive information using Differential Privacy."
+    ]
+  },
+  {
+    "keyword": "Federated Learning",
+    "weight": 0.86,
+    "synonyms": [
+      "distributed learning",
+      "edge learning"
+    ],
+    "context_examples": [
+      "Trained decentralized models using Federated Learning."
+    ]
+  },
+  {
+    "keyword": "Model Versioning",
+    "weight": 0.86,
+    "synonyms": [
+      "version control",
+      "model lifecycle"
+    ],
+    "context_examples": [
+      "Maintained reproducible model versions across deployments."
+    ]
+  },
+  {
+    "keyword": "Model Evaluation",
+    "weight": 1.0,
+    "synonyms": [
+      "performance evaluation",
+      "model validation",
+      "evaluation pipeline"
+    ],
+    "context_examples": [
+      "Evaluated machine learning models using comprehensive validation metrics."
+    ]
+  },
+  {
+    "keyword": "Accuracy",
+    "weight": 0.90,
+    "synonyms": [
+      "classification accuracy",
+      "correct prediction rate"
+    ],
+    "context_examples": [
+      "Measured classification accuracy on validation datasets."
+    ]
+  },
+  {
+    "keyword": "Precision",
+    "weight": 0.90,
+    "synonyms": [
+      "positive predictive value",
+      "ppv"
+    ],
+    "context_examples": [
+      "Optimized model precision for fraud detection tasks."
+    ]
+  },
+  {
+    "keyword": "Recall",
+    "weight": 0.90,
+    "synonyms": [
+      "sensitivity",
+      "true positive rate"
+    ],
+    "context_examples": [
+      "Maximized recall for medical diagnosis applications."
+    ]
+  },
+  {
+    "keyword": "F1 Score",
+    "weight": 0.90,
+    "synonyms": [
+      "f-score",
+      "harmonic mean"
+    ],
+    "context_examples": [
+      "Balanced precision and recall using F1 Score."
+    ]
+  },
+  {
+    "keyword": "ROC Curve",
+    "weight": 0.84,
+    "synonyms": [
+      "receiver operating characteristic",
+      "roc analysis"
+    ],
+    "context_examples": [
+      "Compared classifiers using ROC curves."
+    ]
+  },
+  {
+    "keyword": "ROC-AUC",
+    "weight": 0.90,
+    "synonyms": [
+      "auc",
+      "area under roc curve"
+    ],
+    "context_examples": [
+      "Achieved high ROC-AUC on validation datasets."
+    ]
+  },
+  {
+    "keyword": "PR-AUC",
+    "weight": 0.86,
+    "synonyms": [
+      "precision recall auc",
+      "precision recall curve"
+    ],
+    "context_examples": [
+      "Evaluated imbalanced datasets using PR-AUC."
+    ]
+  },
+  {
+    "keyword": "Confusion Matrix",
+    "weight": 0.88,
+    "synonyms": [
+      "classification matrix",
+      "error matrix"
+    ],
+    "context_examples": [
+      "Analyzed prediction errors using confusion matrices."
+    ]
+  },
+  {
+    "keyword": "Classification Report",
+    "weight": 0.82,
+    "synonyms": [
+      "precision recall report",
+      "evaluation summary"
+    ],
+    "context_examples": [
+      "Generated detailed classification reports for model comparison."
+    ]
+  },
+  {
+    "keyword": "RMSE",
+    "weight": 0.88,
+    "synonyms": [
+      "root mean squared error",
+      "regression metric"
+    ],
+    "context_examples": [
+      "Evaluated regression models using RMSE."
+    ]
+  },
+  {
+    "keyword": "MAE",
+    "weight": 0.88,
+    "synonyms": [
+      "mean absolute error"
+    ],
+    "context_examples": [
+      "Measured prediction error using MAE."
+    ]
+  },
+  {
+    "keyword": "MAPE",
+    "weight": 0.84,
+    "synonyms": [
+      "mean absolute percentage error"
+    ],
+    "context_examples": [
+      "Compared forecasting models using MAPE."
+    ]
+  },
+  {
+    "keyword": "R Squared",
+    "weight": 0.86,
+    "synonyms": [
+      "r2 score",
+      "coefficient of determination"
+    ],
+    "context_examples": [
+      "Evaluated regression performance using R² score."
+    ]
+  },
+  {
+    "keyword": "Adjusted R Squared",
+    "weight": 0.80,
+    "synonyms": [
+      "adjusted r2"
+    ],
+    "context_examples": [
+      "Compared regression models using Adjusted R²."
+    ]
+  },
+  {
+    "keyword": "Log Loss",
+    "weight": 0.82,
+    "synonyms": [
+      "cross entropy loss",
+      "binary cross entropy"
+    ],
+    "context_examples": [
+      "Optimized probabilistic predictions using Log Loss."
+    ]
+  },
+  {
+    "keyword": "Cross Validation",
+    "weight": 0.92,
+    "synonyms": [
+      "k-fold cross validation",
+      "validation strategy"
+    ],
+    "context_examples": [
+      "Applied stratified k-fold cross validation for reliable model evaluation."
+    ]
+  },
+  {
+    "keyword": "Stratified K-Fold",
+    "weight": 0.82,
+    "synonyms": [
+      "stratified sampling",
+      "kfold"
+    ],
+    "context_examples": [
+      "Maintained class balance using Stratified K-Fold validation."
+    ]
+  },
+  {
+    "keyword": "Train Test Split",
+    "weight": 0.84,
+    "synonyms": [
+      "holdout validation",
+      "dataset split"
+    ],
+    "context_examples": [
+      "Created train-validation-test splits for unbiased evaluation."
+    ]
+  },
+  {
+    "keyword": "Hyperparameter Tuning",
+    "weight": 0.92,
+    "synonyms": [
+      "parameter optimization",
+      "model tuning"
+    ],
+    "context_examples": [
+      "Improved model performance through hyperparameter tuning."
+    ]
+  },
+  {
+    "keyword": "Grid Search",
+    "weight": 0.86,
+    "synonyms": [
+      "grid search cv",
+      "parameter grid"
+    ],
+    "context_examples": [
+      "Optimized hyperparameters using Grid Search."
+    ]
+  },
+  {
+    "keyword": "Random Search",
+    "weight": 0.84,
+    "synonyms": [
+      "randomized search"
+    ],
+    "context_examples": [
+      "Reduced optimization time with Random Search."
+    ]
+  },
+  {
+    "keyword": "Bayesian Optimization",
+    "weight": 0.86,
+    "synonyms": [
+      "optuna",
+      "hyperopt",
+      "bayesian tuning"
+    ],
+    "context_examples": [
+      "Optimized hyperparameters using Bayesian Optimization."
+    ]
+  },
+  {
+    "keyword": "Optuna",
+    "weight": 0.86,
+    "synonyms": [
+      "automatic hyperparameter tuning",
+      "study optimization"
+    ],
+    "context_examples": [
+      "Used Optuna to automate model optimization."
+    ]
+  },
+  {
+    "keyword": "Calibration",
+    "weight": 0.82,
+    "synonyms": [
+      "probability calibration",
+      "calibrated classifier"
+    ],
+    "context_examples": [
+      "Calibrated predicted probabilities for reliable decision making."
+    ]
+  },
+  {
+    "keyword": "Brier Score",
+    "weight": 0.80,
+    "synonyms": [
+      "calibration metric"
+    ],
+    "context_examples": [
+      "Measured probability calibration using Brier Score."
+    ]
+  },
+  {
+    "keyword": "Expected Calibration Error",
+    "weight": 0.80,
+    "synonyms": [
+      "ece",
+      "calibration error"
+    ],
+    "context_examples": [
+      "Evaluated model confidence using Expected Calibration Error."
+    ]
+  },
+  {
+    "keyword": "Ranking Metrics",
+    "weight": 0.84,
+    "synonyms": [
+      "information retrieval metrics",
+      "ranking evaluation"
+    ],
+    "context_examples": [
+      "Evaluated recommendation models using ranking metrics."
+    ]
+  },
+  {
+    "keyword": "Recall@K",
+    "weight": 0.84,
+    "synonyms": [
+      "top-k recall"
+    ],
+    "context_examples": [
+      "Measured retrieval quality using Recall@K."
+    ]
+  },
+  {
+    "keyword": "MRR",
+    "weight": 0.82,
+    "synonyms": [
+      "mean reciprocal rank"
+    ],
+    "context_examples": [
+      "Evaluated search relevance using MRR."
+    ]
+  },
+  {
+    "keyword": "nDCG",
+    "weight": 0.84,
+    "synonyms": [
+      "normalized discounted cumulative gain"
+    ],
+    "context_examples": [
+      "Measured ranking quality using nDCG."
+    ]
+  },
+  {
+    "keyword": "Learning Curve",
+    "weight": 0.80,
+    "synonyms": [
+      "training curve",
+      "validation curve"
+    ],
+    "context_examples": [
+      "Used learning curves to diagnose bias and variance."
+    ]
+  },
+  {
+    "keyword": "Overfitting",
+    "weight": 0.90,
+    "synonyms": [
+      "high variance",
+      "poor generalization"
+    ],
+    "context_examples": [
+      "Reduced overfitting using regularization and cross-validation."
+    ]
+  },
+  {
+    "keyword": "Underfitting",
+    "weight": 0.88,
+    "synonyms": [
+      "high bias",
+      "insufficient learning"
+    ],
+    "context_examples": [
+      "Improved model complexity to overcome underfitting."
+    ]
+  },
+  {
+    "keyword": "Generalization",
+    "weight": 0.88,
+    "synonyms": [
+      "out-of-sample performance",
+      "robustness"
+    ],
+    "context_examples": [
+      "Built models with strong generalization across unseen datasets."
+    ]
+  },
+
+  {
+    "keyword": "Python",
+    "weight": 1.0,
+    "synonyms": [
+      "python3",
+      "cpython",
+      "programming language"
+    ],
+    "context_examples": [
+      "Developed scalable machine learning and data analysis pipelines using Python."
+    ]
+  },
+  {
+    "keyword": "NumPy",
+    "weight": 0.96,
+    "synonyms": [
+      "numpy arrays",
+      "numerical computing",
+      "ndarray"
+    ],
+    "context_examples": [
+      "Performed high-performance numerical computations using NumPy."
+    ]
+  },
+  {
+    "keyword": "Pandas",
+    "weight": 0.97,
+    "synonyms": [
+      "dataframe",
+      "data manipulation",
+      "tabular data"
+    ],
+    "context_examples": [
+      "Cleaned and transformed structured datasets using Pandas."
+    ]
+  },
+  {
+    "keyword": "Polars",
+    "weight": 0.84,
+    "synonyms": [
+      "polars dataframe",
+      "fast dataframe",
+      "rust dataframe"
+    ],
+    "context_examples": [
+      "Processed large datasets efficiently using Polars."
+    ]
+  },
+  {
+    "keyword": "SciPy",
+    "weight": 0.90,
+    "synonyms": [
+      "scientific computing",
+      "optimization",
+      "scientific python"
+    ],
+    "context_examples": [
+      "Applied optimization and statistical algorithms using SciPy."
+    ]
+  },
+  {
+    "keyword": "Scikit-Learn",
+    "weight": 0.98,
+    "synonyms": [
+      "sklearn",
+      "machine learning library"
+    ],
+    "context_examples": [
+      "Built classification and regression models using Scikit-Learn."
+    ]
+  },
+  {
+    "keyword": "TensorFlow",
+    "weight": 0.95,
+    "synonyms": [
+      "tf",
+      "keras",
+      "deep learning framework"
+    ],
+    "context_examples": [
+      "Developed deep learning models using TensorFlow."
+    ]
+  },
+  {
+    "keyword": "Keras",
+    "weight": 0.90,
+    "synonyms": [
+      "tf keras",
+      "deep learning api"
+    ],
+    "context_examples": [
+      "Implemented neural networks using Keras APIs."
+    ]
+  },
+  {
+    "keyword": "PyTorch",
+    "weight": 0.97,
+    "synonyms": [
+      "torch",
+      "deep learning",
+      "autograd"
+    ],
+    "context_examples": [
+      "Built transformer and computer vision models using PyTorch."
+    ]
+  },
+  {
+    "keyword": "TorchVision",
+    "weight": 0.84,
+    "synonyms": [
+      "vision datasets",
+      "computer vision library"
+    ],
+    "context_examples": [
+      "Utilized TorchVision datasets and pretrained models."
+    ]
+  },
+  {
+    "keyword": "Hugging Face",
+    "weight": 0.95,
+    "synonyms": [
+      "transformers",
+      "datasets",
+      "huggingface hub"
+    ],
+    "context_examples": [
+      "Fine-tuned transformer models using Hugging Face."
+    ]
+  },
+  {
+    "keyword": "OpenCV",
+    "weight": 0.93,
+    "synonyms": [
+      "cv2",
+      "computer vision",
+      "image processing"
+    ],
+    "context_examples": [
+      "Implemented image preprocessing pipelines using OpenCV."
+    ]
+  },
+  {
+    "keyword": "Pillow",
+    "weight": 0.82,
+    "synonyms": [
+      "pil",
+      "image manipulation"
+    ],
+    "context_examples": [
+      "Performed image augmentation using Pillow."
+    ]
+  },
+  {
+    "keyword": "NLTK",
+    "weight": 0.88,
+    "synonyms": [
+      "natural language toolkit",
+      "text processing"
+    ],
+    "context_examples": [
+      "Performed NLP preprocessing using NLTK."
+    ]
+  },
+  {
+    "keyword": "spaCy",
+    "weight": 0.91,
+    "synonyms": [
+      "spacy nlp",
+      "entity recognition",
+      "tokenization"
+    ],
+    "context_examples": [
+      "Built industrial NLP pipelines using spaCy."
+    ]
+  },
+  {
+    "keyword": "Gensim",
+    "weight": 0.84,
+    "synonyms": [
+      "topic modeling",
+      "word2vec",
+      "lda"
+    ],
+    "context_examples": [
+      "Generated semantic embeddings using Gensim."
+    ]
+  },
+  {
+    "keyword": "XGBoost",
+    "weight": 0.95,
+    "synonyms": [
+      "gradient boosting",
+      "xgb"
+    ],
+    "context_examples": [
+      "Built high-performing ensemble models using XGBoost."
+    ]
+  },
+  {
+    "keyword": "LightGBM",
+    "weight": 0.92,
+    "synonyms": [
+      "lgbm",
+      "gradient boosting"
+    ],
+    "context_examples": [
+      "Optimized large-scale classification tasks using LightGBM."
+    ]
+  },
+  {
+    "keyword": "CatBoost",
+    "weight": 0.91,
+    "synonyms": [
+      "categorical boosting",
+      "gradient boosting"
+    ],
+    "context_examples": [
+      "Handled categorical features efficiently using CatBoost."
+    ]
+  },
+  {
+    "keyword": "Matplotlib",
+    "weight": 0.92,
+    "synonyms": [
+      "python plotting",
+      "visualization"
+    ],
+    "context_examples": [
+      "Created publication-quality charts using Matplotlib."
+    ]
+  },
+  {
+    "keyword": "Seaborn",
+    "weight": 0.90,
+    "synonyms": [
+      "statistical visualization",
+      "plotting"
+    ],
+    "context_examples": [
+      "Visualized correlations and distributions using Seaborn."
+    ]
+  },
+  {
+    "keyword": "Plotly",
+    "weight": 0.88,
+    "synonyms": [
+      "interactive visualization",
+      "dash plots"
+    ],
+    "context_examples": [
+      "Developed interactive dashboards using Plotly."
+    ]
+  },
+  {
+    "keyword": "Bokeh",
+    "weight": 0.80,
+    "synonyms": [
+      "interactive charts",
+      "visual analytics"
+    ],
+    "context_examples": [
+      "Built interactive visualizations using Bokeh."
+    ]
+  },
+  {
+    "keyword": "Tableau",
+    "weight": 0.91,
+    "synonyms": [
+      "business intelligence",
+      "dashboard"
+    ],
+    "context_examples": [
+      "Created executive dashboards using Tableau."
+    ]
+  },
+  {
+    "keyword": "Power BI",
+    "weight": 0.91,
+    "synonyms": [
+      "microsoft power bi",
+      "business analytics"
+    ],
+    "context_examples": [
+      "Developed enterprise BI dashboards using Power BI."
+    ]
+  },
+  {
+    "keyword": "Jupyter Notebook",
+    "weight": 0.93,
+    "synonyms": [
+      "jupyterlab",
+      "interactive notebook"
+    ],
+    "context_examples": [
+      "Performed exploratory analysis using Jupyter Notebook."
+    ]
+  },
+  {
+    "keyword": "Google Colab",
+    "weight": 0.87,
+    "synonyms": [
+      "colab",
+      "cloud notebook"
+    ],
+    "context_examples": [
+      "Trained deep learning models using Google Colab GPUs."
+    ]
+  },
+  {
+    "keyword": "Visual Studio Code",
+    "weight": 0.88,
+    "synonyms": [
+      "vscode",
+      "code editor"
+    ],
+    "context_examples": [
+      "Developed ML applications using Visual Studio Code."
+    ]
+  },
+  {
+    "keyword": "Git",
+    "weight": 0.94,
+    "synonyms": [
+      "git version control",
+      "source control"
+    ],
+    "context_examples": [
+      "Managed collaborative projects using Git."
+    ]
+  },
+  {
+    "keyword": "GitHub",
+    "weight": 0.93,
+    "synonyms": [
+      "github repositories",
+      "git hosting"
+    ],
+    "context_examples": [
+      "Maintained open-source ML projects on GitHub."
+    ]
+  },
+  {
+    "keyword": "Docker",
+    "weight": 0.92,
+    "synonyms": [
+      "containerization",
+      "containers"
+    ],
+    "context_examples": [
+      "Containerized machine learning applications using Docker."
+    ]
+  },
+  {
+    "keyword": "SQL",
+    "weight": 0.97,
+    "synonyms": [
+      "postgresql",
+      "mysql",
+      "sqlite",
+      "sql server"
+    ],
+    "context_examples": [
+      "Queried large analytical datasets using SQL."
+    ]
+  },
+  {
+    "keyword": "MongoDB",
+    "weight": 0.84,
+    "synonyms": [
+      "nosql",
+      "document database"
+    ],
+    "context_examples": [
+      "Stored semi-structured datasets in MongoDB."
+    ]
+  },
+  {
+    "keyword": "Redis",
+    "weight": 0.82,
+    "synonyms": [
+      "cache",
+      "in-memory database"
+    ],
+    "context_examples": [
+      "Cached inference results using Redis."
+    ]
+  },
+  {
+    "keyword": "Apache Superset",
+    "weight": 0.80,
+    "synonyms": [
+      "superset",
+      "analytics dashboard"
+    ],
+    "context_examples": [
+      "Built analytics dashboards using Apache Superset."
+    ]
+  },
+  {
+    "keyword": "Dask",
+    "weight": 0.84,
+    "synonyms": [
+      "parallel computing",
+      "distributed python"
+    ],
+    "context_examples": [
+      "Scaled Pandas workflows using Dask."
+    ]
+  },
+  {
+    "keyword": "Ray",
+    "weight": 0.84,
+    "synonyms": [
+      "distributed ai",
+      "parallel ml"
+    ],
+    "context_examples": [
+      "Distributed model training using Ray."
+    ]
+  },
+  {
+    "keyword": "ONNX",
+    "weight": 0.82,
+    "synonyms": [
+      "open neural network exchange",
+      "cross-platform inference"
+    ],
+    "context_examples": [
+      "Exported deep learning models using ONNX."
+    ]
+  },
+  {
+    "keyword": "CUDA",
+    "weight": 0.84,
+    "synonyms": [
+      "gpu computing",
+      "nvidia cuda"
+    ],
+    "context_examples": [
+      "Accelerated deep learning training using CUDA."
+    ]
+  },
+  {
+    "keyword": "cuDNN",
+    "weight": 0.82,
+    "synonyms": [
+      "deep neural network library",
+      "gpu acceleration"
+    ],
+    "context_examples": [
+      "Optimized GPU-based deep learning using cuDNN."
+    ]
+  },
+  {
+    "keyword": "Python",
+    "weight": 1.0,
+    "synonyms": [
+      "python3",
+      "cpython",
+      "jupyter",
+      "ipython"
+    ],
+    "context_examples": [
+      "Developed machine learning pipelines and automated data processing using Python."
+    ]
+  },
+  {
+    "keyword": "SQL",
+    "weight": 0.98,
+    "synonyms": [
+      "postgresql",
+      "mysql",
+      "sqlite",
+      "t-sql",
+      "pl/sql"
+    ],
+    "context_examples": [
+      "Wrote optimized SQL queries for analytics and feature engineering."
+    ]
+  },
+  {
+    "keyword": "NoSQL",
+    "weight": 0.90,
+    "synonyms": [
+      "mongodb",
+      "cassandra",
+      "dynamodb",
+      "couchdb"
+    ],
+    "context_examples": [
+      "Designed scalable NoSQL databases for large-scale applications."
+    ]
+  },
+  {
+    "keyword": "MongoDB",
+    "weight": 0.88,
+    "synonyms": [
+      "document database",
+      "nosql mongodb"
+    ],
+    "context_examples": [
+      "Built document-oriented applications using MongoDB."
+    ]
+  },
+  {
+    "keyword": "PostgreSQL",
+    "weight": 0.90,
+    "synonyms": [
+      "postgres",
+      "relational database"
+    ],
+    "context_examples": [
+      "Managed relational datasets using PostgreSQL."
+    ]
+  },
+  {
+    "keyword": "MySQL",
+    "weight": 0.88,
+    "synonyms": [
+      "mysql server",
+      "sql database"
+    ],
+    "context_examples": [
+      "Designed normalized schemas and optimized MySQL queries."
+    ]
+  },
+  {
+    "keyword": "Redis",
+    "weight": 0.88,
+    "synonyms": [
+      "in-memory database",
+      "cache",
+      "key-value store"
+    ],
+    "context_examples": [
+      "Integrated Redis for caching and session management."
+    ]
+  },
+  {
+    "keyword": "Apache Kafka",
+    "weight": 0.90,
+    "synonyms": [
+      "kafka",
+      "event streaming",
+      "pub/sub"
+    ],
+    "context_examples": [
+      "Built real-time streaming pipelines using Apache Kafka."
+    ]
+  },
+  {
+    "keyword": "Apache Spark",
+    "weight": 0.92,
+    "synonyms": [
+      "spark",
+      "pyspark",
+      "spark sql",
+      "spark mllib"
+    ],
+    "context_examples": [
+      "Processed large-scale datasets using Apache Spark."
+    ]
+  },
+  {
+    "keyword": "Hadoop",
+    "weight": 0.85,
+    "synonyms": [
+      "hdfs",
+      "mapreduce",
+      "yarn"
+    ],
+    "context_examples": [
+      "Managed distributed storage and processing with Hadoop."
+    ]
+  },
+  {
+    "keyword": "AWS",
+    "weight": 0.95,
+    "synonyms": [
+      "amazon web services",
+      "ec2",
+      "s3",
+      "lambda",
+      "sagemaker"
+    ],
+    "context_examples": [
+      "Built scalable AI solutions using AWS cloud services."
+    ]
+  },
+  {
+    "keyword": "Microsoft Azure",
+    "weight": 0.90,
+    "synonyms": [
+      "azure ml",
+      "azure ai",
+      "azure cloud"
+    ],
+    "context_examples": [
+      "Trained and deployed ML models using Azure Machine Learning."
+    ]
+  },
+  {
+    "keyword": "Google Cloud Platform",
+    "weight": 0.90,
+    "synonyms": [
+      "gcp",
+      "vertex ai",
+      "bigquery"
+    ],
+    "context_examples": [
+      "Built scalable machine learning solutions using GCP."
+    ]
+  },
+  {
+    "keyword": "Docker",
+    "weight": 0.95,
+    "synonyms": [
+      "containerization",
+      "docker compose",
+      "dockerfile"
+    ],
+    "context_examples": [
+      "Containerized AI applications using Docker."
+    ]
+  },
+  {
+    "keyword": "Kubernetes",
+    "weight": 0.93,
+    "synonyms": [
+      "k8s",
+      "helm",
+      "kubectl"
+    ],
+    "context_examples": [
+      "Managed scalable ML workloads using Kubernetes."
+    ]
+  },
+  {
+    "keyword": "Git",
+    "weight": 0.90,
+    "synonyms": [
+      "github",
+      "gitlab",
+      "version control"
+    ],
+    "context_examples": [
+      "Managed collaborative AI projects using Git."
+    ]
+  },
+  {
+    "keyword": "Linux",
+    "weight": 0.90,
+    "synonyms": [
+      "ubuntu",
+      "bash",
+      "shell scripting"
+    ],
+    "context_examples": [
+      "Developed and deployed AI systems on Linux environments."
+    ]
+  },
+  {
+    "keyword": "REST API",
+    "weight": 0.88,
+    "synonyms": [
+      "restful api",
+      "http api",
+      "fastapi",
+      "flask api"
+    ],
+    "context_examples": [
+      "Exposed machine learning models through REST APIs."
+    ]
+  },
+  {
+    "keyword": "FastAPI",
+    "weight": 0.90,
+    "synonyms": [
+      "python api",
+      "asgi",
+      "uvicorn"
+    ],
+    "context_examples": [
+      "Built production-grade inference APIs using FastAPI."
+    ]
+  },
+  {
+    "keyword": "Flask",
+    "weight": 0.86,
+    "synonyms": [
+      "python web framework",
+      "flask api"
+    ],
+    "context_examples": [
+      "Developed lightweight ML APIs using Flask."
+    ]
+  }
+]

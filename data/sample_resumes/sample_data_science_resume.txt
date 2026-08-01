@@ -1,0 +1,24 @@
+Marcus Vance
+Email: marcus.vance@example.com | Phone: +1-555-018-7741 | Location: New York, NY
+
+SUMMARY
+Senior Data Scientist with 5 years of experience deriving strategic business insights using Python, SQL, Statistics, and Machine Learning. Proficient in A/B Testing, Feature Engineering, PySpark, and Data Visualization.
+
+EXPERIENCE
+Senior Data Scientist | FinAnalytics Corp | Feb 2021 - Present
+- Conducted exploratory data analysis (EDA) and built predictive churn models using XGBoost, Random Forest, and Scikit-Learn, boosting retention by 15%.
+- Designed and evaluated A/B tests for product feature rollouts, analyzing p-values and confidence intervals for 10M daily active users.
+- Automated ETL data pipelines using dbt, Apache Airflow, and PySpark to aggregate multi-terabyte datasets in Snowflake.
+
+Data Analyst | Metrics Hub | Jul 2019 - Jan 2021
+- Authored complex SQL queries and created executive dashboards in Tableau and Seaborn.
+- Applied Time Series Analysis (ARIMA and Prophet) to forecast quarterly revenue with 94% accuracy.
+
+EDUCATION
+Master of Science in Statistics | Columbia University | 2019
+Bachelor of Science in Mathematics | NYU | 2017
+
+SKILLS
+Analytics & Modeling: Statistics, Machine Learning, A/B Testing, Feature Engineering, XGBoost, Random Forest, Scikit-Learn, EDA
+Programming & Querying: Python, SQL, R, PySpark, Pandas, NumPy
+Data Warehousing & Ops: Snowflake, Airflow, dbt, Tableau, Matplotlib, Seaborn
